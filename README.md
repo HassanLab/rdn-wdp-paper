@@ -14,4 +14,4 @@
 
 ---
 
-This is a repository for @HassanLab publication from RDN-WDP Project.
+This is a repository for [HassanLab](https://github.com/HassanLab/) publication from RDN-WDP Project. Image processing software used in this research can be found in [RDN-WDP](https://github.com/rejsmont/rdn-wdp) repository. Data mining and postprocessing scripts can be found in [RDN-WDP-Python](https://github.com/rejsmont/rdn-wdp-python) repository. Raw data will be posted in [RDN-WDP-Data](https://github.com/rejsmont/rdn-wdp-data) repository.
