@@ -25,9 +25,11 @@
 
 This is a repository for [HassanLab](https://github.com/HassanLab/) publication from RDN-WDP Project. Image processing software used in this research can be found in [RDN-WDP](https://github.com/rejsmont/rdn-wdp) repository. Data mining and postprocessing scripts can be found in [RDN-WDP-Python](https://github.com/rejsmont/rdn-wdp-python) repository. Raw data will be posted (as soon as we properly annotate and organize it) in [RDN-WDP-Data](https://github.com/rejsmont/rdn-wdp-data) repository.
 
-We decided to write this paper on GitHub with belief that open science also means transparency in how scientific stories are put together and published.  If you found this project interesting and would like to contribute, or if you found an error or a bug in the text, data or associated software, drop me a line at [radoslaw.ejsmont@icm-institute.org](mailto:radoslaw.ejsmont@icm-institute.org).
+We decided to write this paper on GitHub with belief that open science also means transparency in how scientific stories are put together and published.  If you found this project interesting and would like to contribute, or if you found an error or a bug in the text, data or associated software, drop me a line at [radoslaw.ejsmont@icm-institute.org](mailto:radoslaw.ejsmont@icm-institute.org) or create a pull request.
 
-*We hope that our openess and transparency would not be abused #dontscoopus.*
+*We hope that our openness and transparency would not be abused #dontscoopus.*
+
+---
 
 The contents of this repository as well as the associated data ([RDN-WDP-Data](https://github.com/rejsmont/rdn-wdp-data)) is released under Creative Commons Attribution 4.0 (CC-BY-4.0) license with restriction on scientific publishing (see below). Software from [RDN-WDP](https://github.com/rejsmont/rdn-wdp), [RDN-WDP-Python](https://github.com/rejsmont/rdn-wdp-python) is licensed under MIT license with restriction on scientific publishing (see below).
 
@@ -35,5 +37,3 @@ The contents of this repository as well as the associated data ([RDN-WDP-Data](h
 This repository and the associated repositories hold scientific writing, data and software, neither published nor peer-reviewed. You are free to use them in your project, however you should **NOT** publish a paper in a scientific journal using our data or software before we publish ours, unless you obtain a permission from us. As the paper from this repository has not yet been peer reviewed, please treat the information published here with caution as it may contain errors and change without notice.
 
 **The above supplement to the licenses will be revoked once our paper is accepted for publication.**
-
----
