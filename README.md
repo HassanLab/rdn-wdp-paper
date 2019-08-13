@@ -11,15 +11,15 @@
 
 ---
 
-#### [Abstract](abstract.md)
-#### [Introduction](introduction.md)
-#### [Materials & methods](methods.md)
-#### [Results](results.md)
-#### [Discussion](discussion.md)
-#### [Acknowledgements](notes.md)
-#### [Author contributions](notes.md)
-#### [Supplementary information](supplements.md)
-#### [Bibliography](bibliography.bib)
+#### [Abstract](manuscript.md#Abstract)
+#### [Introduction](manuscript.md#Introduction)
+#### [Results](manuscript.md#Results)
+#### [Discussion](manuscript.md#Discussion)
+#### [References](manuscript.md#References)
+#### [Acknowledgements](manuscript.md)
+#### [Author contributions](manuscript.md)
+#### [Methods](manuscript.md#Methods)
+#### [Supplementary material](manuscript.md#Supplementary-material)
 
 ---
 
