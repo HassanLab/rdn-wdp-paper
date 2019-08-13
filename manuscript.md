@@ -1257,7 +1257,7 @@ Post-MF).
 
 **Supplementary Table 1 - Genomic clones.**
 
-| **Gene**   |  **Clone**   | **Gene**  |  **Clone**   |
+|   Gene     |    Clone     |   Gene    |    Clone     |
 |------------|--------------|-----------|--------------|
 | ato        | FlyFos018487 | lola      | CH321-64B21  |
 | CG30492    | FlyFos025473 | vn        | CH321-32C03  |
@@ -1304,12 +1304,40 @@ Post-MF).
 
 **Supplementary Table 2 - Summary of Ato target gene expression.**
 
-
+|   Gene       | Expression group | Follows ato?        | Chip peak? | GO term (selection)                                     | Reference                       |
+|--------------|------------------|---------------------|------------|---------------------------------------------------------|---------------------------------|
+| ato          | MF               | Strong              | Strong     | R8 cell fate commitment                                 | Jarman et al., 1994             |
+| Brd          | MF               | Strong              | No         | negative regulation of Notch signaling pathway          | Lai et al., 2000                |
+| βTub60D      | MF               | No                  | No         | axonogenesis                                            | Hoyle et al., 2000              |
+| CG2556       | MF               | Strong              | Medium     |                                                         |                                 |
+| CG9801       | MF               | Strong              | No         |                                                         |                                 |
+| E(spl)mδ-HLH | MF               | Strong              | No         | Notch signaling pathway                                 | Bailey and Posakony, 1995       |
+| Fas2         | MF               | Strong              | No         | negative regulation of EGFR signaling pathway           | Mao and Freeman, 2009           |
+| nvy          | MF               | Strong              | Strong     | negative regulation of Notch signaling pathway          | Wildonger and Mann, 2005        |
+| sca          | MF               | Strong              | Medium     | negative regulation of Notch signaling pathway          | Powell et al., 2001             |
+| sens         | MF               | Strong              | Medium     | R8 cell differentiation                                 | Nolo et al., 2000               |
+| seq          | MF               | Strong              | No         | R8 cell development                                     | Petrovic and Hummel, 2008       |
+| rau          | MF               | No                  | No         | positive regulation of EGFR and FGFR signaling pathways | Sieglitz et al., 2013           |
+| Abl          | post-MF-prox     | No                  | No         | compound eye development                                | Xiong et al., 2009              |
+| CG13928      | post-MF-prox     | Weak                | No         | negative regulation of translation                      | Khan et al., 2015               |
+| CG17724      | post-MF-prox     | Equal in MF         | No         |                                                         |                                 |
+| CG32150      | post-MF-prox     | Equal in MF         | Weak       | PCP signaling pathway                                   | Banerjee et al., 2017           |
+| DAAM         | post-MF-prox     | Equal in MF         | Medium     | regulation of axonogenesis                              | Matusek et al., 2008            |
+| dila         | post-MF-prox     | Not expressed in MF | No         | cilium assembly                                         | Ma and Jarman, 2011             |
+| ktub         | post-MF-prox     | Not expressed in MF | No         | deactivation of rhodopsin mediated signaling            | Chen et al., 2012               |
+| Lrch         | post-MF-prox     | Weak                | Medium     | cytokinesis                                             | Foussard et al., 2010           |
+| scrt         | post-MF-prox     | Equal in MF         | Weak       | negative regulation of Notch signaling pathway          | Ramat et al., 2016              |
+| CG15097      | post-MF-dist     | Equal in MF         | No         | actin binding                                           | Goldstein and Gunawardena, 2000 |
+| dpr9         | post-MF-dist     | Not expressed in MF | Medium     | synapse organization                                    | Carrillo et al., 2015           |
+| nSyb         | post-MF-dist     | Not expressed in MF | No         | neurotransmitter secretion                              | Lloyd et al., 2000              |
+| Victoria     | post-MF-dist     | No data             | No         | response to stress                                      | Ekengren and Hultmark, 2001     |
+| dap*         | pre-post         | No                  | No         | cell cycle arrest                                       | Firth and Baker, 2005           |
+| SRPK         | pre-post         | Weak                | No         | regulation of RNA splicing                              | Allemand et al., 2001           |
 
 
 **Supplementary Table 3 - A-P boundaries of the identified clusters.**
 
-| **Cluster** | **Start** | **End** | **Color** |
+|   Cluster   |   Start   |   End   |   Color   |
 |-------------|----------:|--------:|-----------|
 | Pre-MF      |           |      -2 |           |            
 | MF-low      |        -1 |       3 |           |
