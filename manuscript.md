@@ -1,5 +1,6 @@
 # Single-cell resolution view of the transcriptional landscape of developing *Drosophila* eye.
-### [Radoslaw Kamil Ejsmont](https://github.com/rejsmont)<sup>1, 2, 3</sup>, [Grace Houser](https://github.com/Grace-Houser)<sup>1</sup>, Natalia Mora Garcia<sup>1, 2</sup>, Sara Fonseca Topp<sup>1</sup>, Natalia Danda<sup>1</sup>, Agnes Wong-Chung<sup>1</sup>, Bassem A. Hassan<sup>1, 2, ✉</sup>
+
+[Radoslaw Kamil Ejsmont](https://github.com/rejsmont)<sup>1, 2, 3</sup>, [Grace Houser](https://github.com/Grace-Houser)<sup>1</sup>, Natalia Mora Garcia<sup>1, 2</sup>, Sara Fonseca Topp<sup>1</sup>, Natalia Danda<sup>1</sup>, Agnes Wong-Chung<sup>1</sup>, Bassem A. Hassan<sup>1, 2, ✉</sup>
 ---
 <sup>1</sup> Institut du Cerveau et de la Moelle Epinière (ICM) - Hôpital Pitié-Salpêtrière, Sorbonne Université, Inserm, CNRS, Paris, France
 
@@ -1062,7 +1063,7 @@ differentiation.
 
 ---
 
-![Figure 2](figures/fig_2.png)
+![Figure 2](figures/fig_2.png)<a id="Fig_2"></a>
 <small>
 **Figure 2 - The quality of nuclear segmentation in the eye disc
 images.** (**a**) Raw microscopic images were segmented into (**b**)
@@ -1092,7 +1093,7 @@ mean value.
 
 ---
 
-![Figure 3](figures/fig_3.png)
+![Figure 3](figures/fig_3.png)<a id="Fig_3"></a>
 <small>
 **Figure 3 - Expression of Atonal protein and mRNA in the eye disc.**
 (**a**) xyz mean intensity projection of normalized Ato[mCherry] protein
@@ -1112,7 +1113,7 @@ profile of Ato protein and the *ato* transcriptional reporter.
 
 ---
 
-![Figure 4](figures/fig_4.png)
+![Figure 4](figures/fig_4.png)<a id="Fig_4"></a>
 <small>
 **Figure 4 - Cell type classification in the eye disc.** (**a**)
 color-coded result of cell-type classification based on Ato[mCherry]
@@ -1133,7 +1134,7 @@ cluster, distribution across all analyzed samples.
 
 ---
 
-![Figure 5](figures/fig_5.png)
+![Figure 5](figures/fig_5.png)<a id="Fig_5"></a>
 <small>
 **Figure 5 - Expression of the putative Ato targets in different cell
 types.** (**a**) Distribution of the putative target gene expression
@@ -1158,7 +1159,7 @@ Supplementary material
 
 ---
 
-![Supplementary Figure 1](figures/fig_s1.png)
+![Supplementary Figure 1](figures/fig_s1.png)<a id="Fig_S1"></a>
 <small>
 **Supplementary Figure 1 - Genetically-encoded fluorescent reporters.**
 (a) The transcriptional reporter is designed to be placed C-terminally,
@@ -1173,7 +1174,7 @@ flanked by attB sites used for knock-in using the IMAGO technique.
 
 ---
 
-![Supplementary Figure 2](figures/fig_s2.png)
+![Supplementary Figure 2](figures/fig_s2.png)<a id="Fig_S2"></a>
 <small>
 **Supplementary Figure 2 - Nuclear segmentation.** (**a**) A single
 section of the DAPI channel used for segmentation (sample 1Q8GA8). Scale
@@ -1185,7 +1186,7 @@ Gaussians (DoG) calculated from the probability maps. (**d**) Result of
 
 ---
 
-![Supplementary Figure 3](figures/fig_s3.png)
+![Supplementary Figure 3](figures/fig_s3.png)<a id="Fig_S3"></a>
 <small>
 **Supplementary Figure 3 - Sample-invariant coordinate system used for
 sample registration.** Each nucleus is represented by eight values. The
@@ -1206,7 +1207,7 @@ nucleus is identical to the mean intensity of its 26 neighbors.
 
 ---
 
-![Supplementary Figure 4](figures/fig_s4.png)
+![Supplementary Figure 4](figures/fig_s4.png)<a id="Fig_S4"></a>
 <small>
 **Supplementary Figure 4 - Expression of Atonal in the eye disc. Sample
 artifacts and the robustness of our approach.** (**a**) Maximum
@@ -1228,7 +1229,7 @@ expression measured in BAC (solid line) and all (dotted line) samples.
 
 ---
 
-![Supplementary Figure 5](figures/fig_s5s.png)
+![Supplementary Figure 5](figures/fig_s5s.png)<a id="Fig_S5"></a>
 <small>
 **Supplementary Figure 5 - Expression of the putative Ato targets in the
 eye disc.** The left plots show the xyz mean intensity projection of the
@@ -1240,7 +1241,7 @@ expression profile of the reporter (blue line) and the Ato protein
 
 ---
 
-![Supplementary Figure 4](figures/fig_s6s.png)
+![Supplementary Figure 4](figures/fig_s6s.png)<a id="Fig_S6"></a>
 <small>
 **Supplementary Figure 6 - Expression of the putative Ato targets in
 different cell types.** Violin plots show the distribution of the
@@ -1256,7 +1257,7 @@ Post-MF).
 
 ---
 
-**Supplementary Table 1 - Genomic clones.**
+**Supplementary Table 1 - Genomic clones.**<a id="Tab_S1"></a>
 
 |   Gene     |    Clone     |   Gene    |    Clone     |
 |------------|--------------|-----------|--------------|
@@ -1303,7 +1304,7 @@ Post-MF).
 | beat-IIIc  | CH321-83H01  | CG8179    | CH322-77N14  |
 | king-tubby | CH321-23A21  | CG32206   | CH321-26N22  |
 
-**Supplementary Table 2 - Summary of Ato target gene expression.**
+**Supplementary Table 2 - Summary of Ato target gene expression.**<a id="Tab_S2"></a>
 
 |   Gene       | Expression group | Follows ato?        | Chip peak? | GO term (selection)                                     | Reference                       |
 |--------------|------------------|---------------------|------------|---------------------------------------------------------|---------------------------------|
@@ -1336,7 +1337,7 @@ Post-MF).
 | SRPK         | pre-post         | Weak                | No         | regulation of RNA splicing                              | Allemand et al., 2001           |
 
 
-**Supplementary Table 3 - A-P boundaries of the identified clusters.**
+**Supplementary Table 3 - A-P boundaries of the identified clusters.**<a id="Tab_S3"></a>
 
 |   Cluster   |   Start   |   End   |   Color   |
 |-------------|----------:|--------:|-----------|
