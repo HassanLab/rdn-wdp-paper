@@ -1257,50 +1257,50 @@ Post-MF).
 
 **Supplementary Table 1 - Genomic clones.**
 
-  **Gene**     **Clone**      **Gene**    **Clone**
-  ------------ -------------- ----------- --------------
-  ato          FlyFos018487   lola        CH321-64B21
-  CG30492      FlyFos025473   vn          CH321-32C03
-  phyl         FlyFos020917   CG31176     CH321-68N01
-  CG6860       FlyFos030461   Mob1        CH321-54G09
-  CG8965       FlyFos018143   Rapgap1     CH321-89N04
-  E(spl)       FlyFos015754   CG32030     CH321-70B20
-  neur         FlyFos031675   Dscam       CH321-22M14
-  Abl          FlyFos015106   hts         CH321-77H01
-  CG15097      FlyFos027941   MYPT-75D    CH321-24P07
-  CG32150      FlyFos018293   Pde8        CH321-96P21
-  dap          FlyFos031180   spir        CH321-96L14
-  HLHmdelta    FlyFos026304   Teh1        CH321-36O12
-  nvy          FlyFos015283   Traf1       CH321-47A07
-  CG2556       FlyFos023117   CG9924      CH321-34F15
-  sca          FlyFos024078   mam         CH321-79C18
-  sens         FlyFos015942   Mmp2        CH321-81G18
-  dpr9         FlyFos024562   a           CH321-22E15
-  CG17724      FlyFos015482   amon        CH321-81N06
-  Brd          FlyFos016733   CG32131     CH321-64F13
-  DmsR-1       FlyFos021260   CG9095      CH321-50L11
-  betaTub60D   FlyFos029115   dpr10       CH321-87P03
-  CG13928      FlyFos020310   Lim3        CH321-39L06
-  CG15863      FlyFos017066   sano        CH321-05O14
-  CG30343      FlyFos020323   CG31871     CH322-172D02
-  CG9801       FlyFos020740   Ank2        CH321-62K18
-  DAAM         FlyFos021723   cenG1A      CH321-26H08
-  n-syb        FlyFos031054   Pka-R2      CH321-17H01
-  nerfin-1     FlyFos030783   beat-IIIa   CH321-25K15
-  salm         FlyFos030836   CG31637     CH321-17L11
-  scrt         FlyFos028185   CG32387     CH321-91A23
-  seq          FlyFos015482   CG32677     CH321-24B04
-  spdo         FlyFos026385   CG33515     CH321-75A21
-  SRPK         FlyFos028931   cup         CH322-177F17
-  Victoria     FlyFos031257   dpr         CH321-23G21
-  CG1625       FlyFos029937   f           CH321-77G18
-  CG17378      FlyFos026679   side        CH321-68D05
-  Fas2         CH321-93H14    Spn         CH321-22C11
-  sNPF         CH321-09B13    Src64B      CH321-96A17
-  nmo          CH321-25B06    CG6024      CH321-24G17
-  siz          CH321-77O01    CG6495      CH322-147E22
-  beat-IIIc    CH321-83H01    CG8179      CH322-77N14
-  king-tubby   CH321-23A21    CG32206     CH321-26N22
+| **Gene**   |  **Clone**   | **Gene**  |  **Clone**   |
+|------------|--------------|-----------|--------------|
+| ato        | FlyFos018487 | lola      | CH321-64B21  |
+| CG30492    | FlyFos025473 | vn        | CH321-32C03  |
+| phyl       | FlyFos020917 | CG31176   | CH321-68N01  |
+| CG6860     | FlyFos030461 | Mob1      | CH321-54G09  |
+| CG8965     | FlyFos018143 | Rapgap1   | CH321-89N04  |
+| E(spl)     | FlyFos015754 | CG32030   | CH321-70B20  |
+| neur       | FlyFos031675 | Dscam     | CH321-22M14  |
+| Abl        | FlyFos015106 | hts       | CH321-77H01  |
+| CG15097    | FlyFos027941 | MYPT-75D  | CH321-24P07  |
+| CG32150    | FlyFos018293 | Pde8      | CH321-96P21  |
+| dap        | FlyFos031180 | spir      | CH321-96L14  |
+| HLHmdelta  | FlyFos026304 | Teh1      | CH321-36O12  |
+| nvy        | FlyFos015283 | Traf1     | CH321-47A07  |
+| CG2556     | FlyFos023117 | CG9924    | CH321-34F15  |
+| sca        | FlyFos024078 | mam       | CH321-79C18  |
+| sens       | FlyFos015942 | Mmp2      | CH321-81G18  |
+| dpr9       | FlyFos024562 | a         | CH321-22E15  |
+| CG17724    | FlyFos015482 | amon      | CH321-81N06  |
+| Brd        | FlyFos016733 | CG32131   | CH321-64F13  |
+| DmsR-1     | FlyFos021260 | CG9095    | CH321-50L11  |
+| betaTub60D | FlyFos029115 | dpr10     | CH321-87P03  |
+| CG13928    | FlyFos020310 | Lim3      | CH321-39L06  |
+| CG15863    | FlyFos017066 | sano      | CH321-05O14  |
+| CG30343    | FlyFos020323 | CG31871   | CH322-172D02 |
+| CG9801     | FlyFos020740 | Ank2      | CH321-62K18  |
+| DAAM       | FlyFos021723 | cenG1A    | CH321-26H08  |
+| n-syb      | FlyFos031054 | Pka-R2    | CH321-17H01  |
+| nerfin-1   | FlyFos030783 | beat-IIIa | CH321-25K15  |
+| salm       | FlyFos030836 | CG31637   | CH321-17L11  |
+| scrt       | FlyFos028185 | CG32387   | CH321-91A23  |
+| seq        | FlyFos015482 | CG32677   | CH321-24B04  |
+| spdo       | FlyFos026385 | CG33515   | CH321-75A21  |
+| SRPK       | FlyFos028931 | cup       | CH322-177F17 |
+| Victoria   | FlyFos031257 | dpr       | CH321-23G21  |
+| CG1625     | FlyFos029937 | f         | CH321-77G18  |
+| CG17378    | FlyFos026679 | side      | CH321-68D05  |
+| Fas2       | CH321-93H14  | Spn       | CH321-22C11  |
+| sNPF       | CH321-09B13  | Src64B    | CH321-96A17  |
+| nmo        | CH321-25B06  | CG6024    | CH321-24G17  |
+| siz        | CH321-77O01  | CG6495    | CH322-147E22 |
+| beat-IIIc  | CH321-83H01  | CG8179    | CH322-77N14  |
+| king-tubby | CH321-23A21  | CG32206   | CH321-26N22  |
 
 **Supplementary Table 2 - Summary of Ato target gene expression.**
 
