@@ -10,6 +10,7 @@
 <sup>✉</sup> Corresponding author, e-mail: [bassem.hassan@icm-institute.org](mailto:bassem.hassan@icm-institute.org)
 
 ---
+[![DOI](https://zenodo.org/badge/147840131.svg)](https://zenodo.org/badge/latestdoi/147840131)
 
 Abstract
 ========

@@ -11,6 +11,8 @@
 
 ---
 
+[![DOI](https://zenodo.org/badge/147840131.svg)](https://zenodo.org/badge/latestdoi/147840131)
+
 #### [Abstract](manuscript.md#Abstract)
 #### [Introduction](manuscript.md#Introduction)
 #### [Results](manuscript.md#Results)
