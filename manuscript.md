@@ -1046,8 +1046,8 @@ Figures
 
 ---
 
-![Figure 1](figures/fig_1.png)<a id="Fig_1"></a>
-<small>
+<a id="Fig_1"></a>[![Figure 1](figures/fig_1.png)](figures/fig_1.pdf)
+<br/><br/><small>
 **Figure 1 - Experimental pipeline.** Our experimental pipeline starts
 with the computational prediction of putative Ato targets. Each target
 is then tagged with a nuclear fluorescent reporter. Tagged genomic
@@ -1063,8 +1063,8 @@ differentiation.
 
 ---
 
-![Figure 2](figures/fig_2.png)<a id="Fig_2"></a>
-<small>
+<a id="Fig_2"></a>[![Figure 2](figures/fig_2.png)](figures/fig_2.pdf)
+<br/><br/><small>
 **Figure 2 - The quality of nuclear segmentation in the eye disc
 images.** (**a**) Raw microscopic images were segmented into (**b**)
 nuclear point clouds. Both images show a single section (slice 40) of
@@ -1093,8 +1093,8 @@ mean value.
 
 ---
 
-![Figure 3](figures/fig_3.png)<a id="Fig_3"></a>
-<small>
+<a id="Fig_3"></a>[![Figure 3](figures/fig_3.png)](figures/fig_3.pdf)
+<br/><br/><small>
 **Figure 3 - Expression of Atonal protein and mRNA in the eye disc.**
 (**a**) xyz mean intensity projection of normalized Ato[mCherry] protein
 fusion expression from 55 p\[ACMAN\] BAC samples. The vertical axis is
@@ -1113,8 +1113,8 @@ profile of Ato protein and the *ato* transcriptional reporter.
 
 ---
 
-![Figure 4](figures/fig_4.png)<a id="Fig_4"></a>
-<small>
+<a id="Fig_4"></a>[![Figure 4](figures/fig_4.png)](figures/fig_4.pdf)
+<br/><br/><small>
 **Figure 4 - Cell type classification in the eye disc.** (**a**)
 color-coded result of cell-type classification based on Ato[mCherry]
 expression in the eye disc (violet - R8, blue - MF-High, red -
@@ -1134,8 +1134,8 @@ cluster, distribution across all analyzed samples.
 
 ---
 
-![Figure 5](figures/fig_5.png)<a id="Fig_5"></a>
-<small>
+<a id="Fig_5"></a>[![Figure 5](figures/fig_5.png)](figures/fig_5.pdf)
+<br/><br/><small>
 **Figure 5 - Expression of the putative Ato targets in different cell
 types.** (**a**) Distribution of the putative target gene expression
 levels in different cell types in the vicinity of the morphogenetic
@@ -1159,8 +1159,8 @@ Supplementary material
 
 ---
 
-![Supplementary Figure 1](figures/fig_s1.png)<a id="Fig_S1"></a>
-<small>
+<a id="Fig_S1"></a>[![Supplementary Figure 1](figures/fig_s1.png)](figures/fig_s1.pdf)
+<br/><br/><small>
 **Supplementary Figure 1 - Genetically-encoded fluorescent reporters.**
 (a) The transcriptional reporter is designed to be placed C-terminally,
 just before the target gene STOP codon. The reporter consists of a
@@ -1174,8 +1174,8 @@ flanked by attB sites used for knock-in using the IMAGO technique.
 
 ---
 
-![Supplementary Figure 2](figures/fig_s2.png)<a id="Fig_S2"></a>
-<small>
+<a id="Fig_S2"></a>[![Supplementary Figure 2](figures/fig_s2.png)](figures/fig_s2.pdf)
+<br/><br/><small>
 **Supplementary Figure 2 - Nuclear segmentation.** (**a**) A single
 section of the DAPI channel used for segmentation (sample 1Q8GA8). Scale
 bar is 30 µm. (**b**) Pixel classification probability map used to
@@ -1186,8 +1186,8 @@ Gaussians (DoG) calculated from the probability maps. (**d**) Result of
 
 ---
 
-![Supplementary Figure 3](figures/fig_s3.png)<a id="Fig_S3"></a>
-<small>
+<a id="Fig_S3"></a>[![Supplementary Figure 3](figures/fig_s3.png)](figures/fig_s3.pdf)
+<br/><br/><small>
 **Supplementary Figure 3 - Sample-invariant coordinate system used for
 sample registration.** Each nucleus is represented by eight values. The
 horizontal (**x**) axis represents the D-V distance of the nucleus from
@@ -1207,8 +1207,8 @@ nucleus is identical to the mean intensity of its 26 neighbors.
 
 ---
 
-![Supplementary Figure 4](figures/fig_s4.png)<a id="Fig_S4"></a>
-<small>
+<a id="Fig_S4"></a>[![Supplementary Figure 4](figures/fig_s4.png)](figures/fig_s4.pdf)
+<br/><br/><small>
 **Supplementary Figure 4 - Expression of Atonal in the eye disc. Sample
 artifacts and the robustness of our approach.** (**a**) Maximum
 intensity z-projection of Ato[mCherry] channel from sample iJbqq8. In
@@ -1229,8 +1229,8 @@ expression measured in BAC (solid line) and all (dotted line) samples.
 
 ---
 
-![Supplementary Figure 5](figures/fig_s5s.png)<a id="Fig_S5"></a>
-<small>
+<a id="Fig_S5"></a>[![Supplementary Figure 5](figures/fig_s5.png)](figures/fig_s5.pdf)
+<br/><br/><small>
 **Supplementary Figure 5 - Expression of the putative Ato targets in the
 eye disc.** The left plots show the xyz mean intensity projection of the
 normalized reporter expression. The middle plots show the xyz maximum
@@ -1241,8 +1241,8 @@ expression profile of the reporter (blue line) and the Ato protein
 
 ---
 
-![Supplementary Figure 4](figures/fig_s6s.png)<a id="Fig_S6"></a>
-<small>
+<a id="Fig_S6"></a>[![Supplementary Figure 6](figures/fig_s6.png)](figures/fig_s6.pdf)
+<br/><br/><small>
 **Supplementary Figure 6 - Expression of the putative Ato targets in
 different cell types.** Violin plots show the distribution of the
 putative target gene expression levels in different cell types in the
