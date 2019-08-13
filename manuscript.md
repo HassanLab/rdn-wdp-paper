@@ -1157,7 +1157,7 @@ Supplementary material
 
 ---
 
-![Supplementary Figure 1](figures/fig_S1.png)
+![Supplementary Figure 1](figures/fig_s1.png)
 <small>
 **Supplementary Figure 1 - Genetically-encoded fluorescent reporters.**
 (a) The transcriptional reporter is designed to be placed C-terminally,
@@ -1172,7 +1172,7 @@ flanked by attB sites used for knock-in using the IMAGO technique.
 
 ---
 
-![Supplementary Figure 2](figures/fig_S2.png)
+![Supplementary Figure 2](figures/fig_s2.png)
 <small>
 **Supplementary Figure 2 - Nuclear segmentation.** (**a**) A single
 section of the DAPI channel used for segmentation (sample 1Q8GA8). Scale
@@ -1184,7 +1184,7 @@ Gaussians (DoG) calculated from the probability maps. (**d**) Result of
 
 ---
 
-![Supplementary Figure 3](figures/fig_S3.png)
+![Supplementary Figure 3](figures/fig_s3.png)
 <small>
 **Supplementary Figure 3 - Sample-invariant coordinate system used for
 sample registration.** Each nucleus is represented by eight values. The
@@ -1205,7 +1205,7 @@ nucleus is identical to the mean intensity of its 26 neighbors.
 
 ---
 
-![Supplementary Figure 4](figures/fig_S4.png)
+![Supplementary Figure 4](figures/fig_s4.png)
 <small>
 **Supplementary Figure 4 - Expression of Atonal in the eye disc. Sample
 artifacts and the robustness of our approach.** (**a**) Maximum
@@ -1227,7 +1227,7 @@ expression measured in BAC (solid line) and all (dotted line) samples.
 
 ---
 
-![Supplementary Figure 5](figures/fig_S5s.png)
+![Supplementary Figure 5](figures/fig_s5s.png)
 <small>
 **Supplementary Figure 5 - Expression of the putative Ato targets in the
 eye disc.** The left plots show the xyz mean intensity projection of the
@@ -1239,7 +1239,7 @@ expression profile of the reporter (blue line) and the Ato protein
 
 ---
 
-![Supplementary Figure 4](figures/fig_S6s.png)
+![Supplementary Figure 4](figures/fig_s6s.png)
 <small>
 **Supplementary Figure 6 - Expression of the putative Ato targets in
 different cell types.** Violin plots show the distribution of the
