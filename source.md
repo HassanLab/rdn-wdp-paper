@@ -2,27 +2,30 @@
 title: Single-cell resolution view of the transcriptional landscape of developing *Drosophila* eye.
 author:
 - name: Radoslaw Kamil Ejsmont
-  affiliations: [0, 1, 2]
+  affiliations: [1, 2, 3, ✉]
   email: radoslaw.ejsmont@cri-paris.org
+  link: https://github.com/rejsmont
   corresponding: true
 - name: Grace Houser
-  affiliations: [0]
+  affiliations: [1]
+  link: https://github.com/Grace-Hoxuser
 - name: Natalia Mora Garcia
-  affiliations: [0, 1]
+  affiliations: [1, 2]
 - name: Sara Fonseca Topp
-  affiliations: [0]
+  affiliations: [1]
 - name: Natalia Danda
-  affiliations: [0]
+  affiliations: [1]
 - name: Agnes Wong-Chung
-  affiliations: [0]
+  affiliations: [1]
 - name: Bassem A. Hassan
-  affiliations: [0, 1, 2]
+  affiliations: [1, 2, ✉]
   email: bassem.hassan@icm-institute.org
   corresponding: true
 affiliations:
-  - "Institut du Cerveau et de la Moelle Epinière (ICM) - Hôpital Pitié-Salpêtrière, Sorbonne Université, Inserm, CNRS, Paris, France"
-  - "VIB Center for the Biology of Disease, VIB, Leuven, Belgium"
-  - "Current address: Center for Research and Interdisciplinarity (CRI), Paris, France"
+  - "^1^ Institut du Cerveau et de la Moelle Epinière (ICM) - Hôpital Pitié-Salpêtrière, Sorbonne Université, Inserm, CNRS, Paris, France"
+  - "^2^ VIB Center for the Biology of Disease, VIB, Leuven, Belgium"
+  - "^3^ Current address: Center for Research and Interdisciplinarity (CRI), Paris, France"
+  - "^✉^ Corresponding authors, e-mail: R.K.E [radoslaw.ejsmont@cri-paris.org](mailto:radoslaw.ejsmont@cri-paris.org), B.A.H. [bassem.hassan@icm-institute.org](mailto:bassem.hassan@icm-institute.org)"
 abstract: |
   Here, we present a novel approach for in situ quantification of gene
   expression in a developing tissue. We created a pipeline that combines
@@ -43,6 +46,11 @@ abstract: |
   detailed gene expression analysis, we identify genes likely to be direct
   Ato targets and get an insight into how gene expression changes drive
   the specification of R8 photoreceptors.
+doi: 147840131
+bibliography: bibliography.bib
+citation-style: https://raw.githubusercontent.com/citation-style-language/styles/master/nature.csl
+reference-section-title: References
+link-citations: true
 figPrefix: Fig.
 figLabels: [1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6]
 figureTemplate: $$t$$
@@ -67,26 +75,26 @@ cellular differentiation, require precise spatiotemporal control of gene
 expression. Gene expression can be directly quantified on both the
 protein and mRNA level. Protein-based methods include traditional
 western blotting and quantitative mass spectrometry that enables
-genome-wide analysis[@Miyagi:2007aa].
+genome-wide analysis  [@Miyagi:2007aa].
 Measurements of gene activity are more commonly assayed on the messenger
 RNA level using quantitative
-PCR[@Wang:1989aa], microarray
-analysis[@Schena:1995aa], and
+PCR [@Wang:1989aa], microarray
+analysis [@Schena:1995aa], and
 next-generation
-sequencing[@Nagalakshmi:2008aa]. Most direct
+sequencing [@Nagalakshmi:2008aa]. Most direct
 methods, of gene expression quantification, require isolation of protein
 or mRNA from cells. This task is laborious and results in loss of
 spatial and temporal resolution. The spatial resolution limitations of
 these methods can be overcome using the fluorescent in situ
 hybridization (FISH) technique. FISH can be applied to gather
 quantitative gene expression data at a single-cell resolution and
-below[@Luengo-Hendriks:2006aa]. However,
+below [@Luengo-Hendriks:2006aa]. However,
 relative expression levels can hardly be compared between different
 genes due to varying affinities of in situ probes. Single-molecule
 fluorescent in situ hybridization (smFISH) addresses this issue by
 quantifying the number of objects (mRNA molecules), instead of the gross
 fluorescent signal per
-cell[@Femino:1998aa; @Raj:2008aa]. While this
+cell [@Femino:1998aa; @Raj:2008aa]. While this
 technique provides absolute quantification of gene expression, it cannot
 be applied to living cells and requires very high-resolution imaging.
 Therefore this technique limits the number of cells in which mRNAs can
@@ -100,19 +108,19 @@ followed by the detection of the reporter through biochemical assays,
 enzymatic reactions, or fluorescence. These methods mostly rely on
 tissue imaging and therefore provide very good spatial data. The
 Gal4/UAS binary expression system was most commonly used to create
-enhancer traps[@Brand:1993aa] and
+enhancer traps [@Brand:1993aa] and
 visualize gene expression. The expression of various reporter proteins,
 under the transcriptional control of the yeast upstream activating
 sequence recognized by Gal4, provided means for monitoring gene
 expression in a tissue-specific or temporarily triggered
-manner[@Yeh:1995aa]. However, this
+manner [@Yeh:1995aa]. However, this
 method is not quantitative due to signal amplification, caused by the
 Gal4 transcription factor. An interesting method has been specifically
 developed to directly assay mRNA levels in living cells. A combination
 of the MS2 phage coat protein fused to a fluorescent protein and an mRNA
 carrying MS2 binding sites enables direct visualization of transcripts
 in cells and
-tissues[@Johansson:1997aa; @Bertrand:1998aa]. While
+tissues [@Johansson:1997aa; @Bertrand:1998aa]. While
 powerful, this technique is quantitative only in combination with
 single-molecule imaging, thus suffers from similar issues as smFISH.
 There is a clear window of opportunity for improvement in how we are
@@ -136,14 +144,14 @@ understanding of similar processes in mammalian systems.
 expression of *Ey* in various epithelial primordia, the tissue in its
 earliest stage of development, leads to the formation of eye structures
 on *Drosophila* wings, legs, and
-antennae[@Halder:1995aa]. Its
+antennae [@Halder:1995aa]. Its
 functional role in the control of eye development is conserved in the
-animal world[@Quiring:1994aa]. While
+animal world [@Quiring:1994aa]. While
 Eyeless triggers the development of the eye, Ato governs neuronal cell
 fate specification in multiple *Drosophila* sensory organs including
-olfactory[@Dong:2002aa] and
-auditory[@Jarman:1993aa] organs, and
-the eye[@Jarman:1994aa]. In the eye,
+olfactory [@Dong:2002aa] and
+auditory [@Jarman:1993aa] organs, and
+the eye [@Jarman:1994aa]. In the eye,
 Ato is required for the selection of the R8 photoreceptor cell, which
 later recruits the remaining seven photoreceptor neurons to form the
 ommatidium. Thus, in *ato* mutants, none of the photoreceptors
@@ -153,21 +161,21 @@ expressed bHLH cofactor Daughterless/E12 it forms a heterodimer and acts
 as a transcription factor. Target genes of Ato include *senseless*
 (*sens*), *fasciclin 2* (*Fas2*), *dacapo* (*dap*) and *Down syndrome
 cell adhesion molecule*
-(*Dscam*)[@Aerts:2010aa]. Senseless
+(*Dscam*) [@Aerts:2010aa]. Senseless
 is a target of Ato required for maintenance of the acquired neural cell
 fate. Sens together with another transcription factor called Rough (Ro)
 forms a bistable negative-feedback loop that allows the neural precursor
 cell to acquire and lock in its terminal R8
-fate[@Pepple:2008aa]. Therefore, these
+fate [@Pepple:2008aa]. Therefore, these
 key transcription factors, mentioned, carry most of the weight when it
 comes to eye development.
 
 The genes described above, which together are key players of the
 photoreceptor specification network, have been identified either in
-genetic screens[@Melicharek:2008aa; @Pepple:2007aa],
-computationally[@Aerts:2010aa] or in
+genetic screens [@Melicharek:2008aa; @Pepple:2007aa],
+computationally [@Aerts:2010aa] or in
 chromatin immunoprecipitation (ChIP-chip / ChIP-seq)
-experiments[@Celniker:2009aa]. These
+experiments [@Celniker:2009aa]. These
 methods provide insight into the identification and roles of key genes
 in this complex network. However, data originating from such screens is
 largely biased. Genetic screens, powerful in that they provide *in vivo*
@@ -210,10 +218,10 @@ insufficient resolution of classical gene expression data. The
 expression of Ato and its targets is captured at high dynamic range and
 resolution by quantitative imaging of the tagged alleles. Focusing on
 Ato, we computationally predicted 92 putative targets (including *ato*
-itself) in the eye disc using i-cisTarget[@Herrmann:2012aa].
+itself) in the eye disc using i-cisTarget [@Herrmann:2012aa].
 For each predicted target, we identified available genomic clones from FlyFos
 (36) and p\[ACMAN\] (49) genomic
-libraries[@Ejsmont:2009aa; @Venken:2009aa] and
+libraries [@Ejsmont:2009aa; @Venken:2009aa] and
 tagged each with a T2A-Venus transcriptional reporter (Supplementary [@fig:Fig_S1]).
 All tagged fosmids and 10 BACs were selected for transgenesis
 (Supplementary [@tbl:Tbl_S1]). We prioritized transgenesis of target genes
@@ -225,7 +233,7 @@ p\[ACMAN\]-based) failed to produce stable lines. In addition, we found
 that the integrity of 6 p\[ACMAN\]-based transgenes had been compromised
 during transgenesis. For the visualization of Ato protein, we created a
 mCherry-tagged allele *in situ*, using the IMAGO
-technique[@Choi:2009aa]. The
+technique [@Choi:2009aa]. The
 successfully obtained reporter transgenic lines were combined with the
 Ato\[mCherry\] line for imaging.
 
@@ -254,20 +262,20 @@ From 389 imaged discs we obtained over 3.4
 million nuclei. However, approximately 21% of nuclei were excluded from
 analysis because they had a volume deviating from the sample mean by
 more than 50%. This deviation was likely a result of over- or
-under-segmentation. The mean nuclear volume of \~31µm^$1^, calculated
+under-segmentation. The mean nuclear volume of &tilde;31µm^3^, calculated
 from our data ([@fig:Fig_2]e), is on the same order of magnitude as those
-measured by others[@Maul:1977aa; @Puah:2017aa].
+measured by others [@Maul:1977aa; @Puah:2017aa].
 The nuclear volume was relatively consistent across imaged discs, with
 the sample mean ranging from 22-38µm^3^ ([@fig:Fig_2]f).
 The number of nuclei
 in the discs ([@fig:Fig_2]g) varied between 5 and 17 thousand,
 depending on the disc
 age, and was consistent with the number of nuclei in the developing fly
-retina[@Kumar:2012aa].
+retina [@Kumar:2012aa].
 Finally, we measured the mean Ato\[mCherry\] signal intensity in the
 nuclei along the MF for each sample ([@fig:Fig_2]h).
 The large variability
-(\~90% of samples fall into values between 10 and 50) was expected. The
+(&tilde;90% of samples fall into values between 10 and 50) was expected. The
 observed variability is likely due to differences in fluorophore
 degradation during sample processing (dissection, mounting), as well as
 the time between sample mounting and imaging (ranging from 1 to 15
@@ -298,9 +306,9 @@ photoreceptors (Supplementary [@fig:Fig_S4]), and the prominence of expression
 in the R8s is lower for mRNA than protein ([@fig:Fig_3]bd). The observed
 persistence of ato mRNA far beyond the MF supports the previously
 reported presence of a phosphorylated form of Ato in late
-R8s[@Quan:2016aa]. Along the D-V
+R8s [@Quan:2016aa]. Along the D-V
 axis, we observed no significant variation in Ato levels, except for
-\~25% (protein) and \~33% (reporter) lower expression on the disc edges
+&tilde;25% (protein) and &tilde;33% (reporter) lower expression on the disc edges
 ([@fig:Fig_3]f). In samples based on the FlyFos genomic clones we found,
 especially in the discs with high MF progression, strong expression of
 3xP3-dsRed FlyFos selectable marker in the posterior of the disc, the
@@ -323,14 +331,14 @@ category comprises genes expressed both anterior and posterior to the MF
 (*dacapo*, *SRPK*). We found almost ubiquitous expression of *dacapo*
 (*dap*) reporter surprising as its expression specific to R2/R5
 precursors was previously well
-described[@Sukhanova:2007aa]. We suspect
+described [@Sukhanova:2007aa]. We suspect
 that the upstream sequence of the fosmid carrying the *dap* reporter
-(\~3kb) is insufficient to recapitulate the native expression pattern,
+(&tilde;3kb) is insufficient to recapitulate the native expression pattern,
 and therefore we excluded *dap* from the further analysis. The
 expression of five target genes was not detected, including *sanpodo*
 (*spdo*), *phyllopod* (*phyl*), *CG31176*, *CG17378*, and *CG30343*.
 Lack of the expression of *phyl* is clearly contradicted by
-others[@Chang:1995aa; @Dickson:1995aa], indicating
+others [@Chang:1995aa; @Dickson:1995aa], indicating
 either damage to the fosmid carrying the reporter or the lack of
 regulatory elements necessary for eye disc expression of *phyl* in that
 fosmid. The gross analysis of putative Ato targets allowed us to
@@ -354,7 +362,7 @@ that the differences in Ato expression and prominence in these classes
 would be sufficient for clustering. Surprisingly, our clustering
 algorithm failed to identify these classes (classifying some cells in
 the MF as cells anterior to the MF or as R8s) unless the number of
-clusters was increased to six ([Figure 4ab](#Fig_4)). The two additional clusters
+clusters was increased to six ([@fig:Fig_4]ab). The two additional clusters
 contained MF nuclei that do not express Ato (MF-low) and MF cells with
 high Ato expression and prominence (MF-high). The former class contains
 the peripodial membrane cells, while the latter we have attributed to
@@ -362,22 +370,22 @@ the Ato-positive cells forming intermediate and equivalent groups. The
 A-P extent of each cluster is summarized in Supplementary [@tbl:Tbl_S3]. The
 expression level of Ato is the highest in the MF-high class, followed by
 the R8 and the MF-medium classes. The prominence of Ato expression is
-the highest in the R8 class, followed by the MF-high class ([Figure 4c](#Fig_4)).
+the highest in the R8 class, followed by the MF-high class ([@fig:Fig_4]c).
 Mean position, Ato expression, and prominence in each class are
 consistent across all analyzed samples, with the largest variability in
-the pre-MF and post-MF classes ([Figure 4d](#Fig_4)). The mean number of segmented
-nuclei in each class varies between 5904±1517 (\~69%) in the post-MF
-class, 1322±831 (\~16%) in the pre-MF, 623±209 (\~7%) in the MF-medium,
-378±172 (\~5%) in the MF-Low, 189±61 (\~2%) in MF-High and 92±23 (\~1%)
-in the R8 classes ([Figure 4e](#Fig_4)). The expression of Ato in the R8 remains
+the pre-MF and post-MF classes ([@fig:Fig_4]d). The mean number of segmented
+nuclei in each class varies between 5904±1517 (&tilde;69%) in the post-MF
+class, 1322±831 (&tilde;16%) in the pre-MF, 623±209 (&tilde;7%) in the MF-medium,
+378±172 (&tilde;5%) in the MF-Low, 189±61 (&tilde;2%) in MF-High and 92±23 (&tilde;1%)
+in the R8 classes ([@fig:Fig_4]e). The expression of Ato in the R8 remains
 relatively high up to six rows posterior to the MF, therefore yielding
-\~15 Ato-positive R8 photoreceptors per row of cells. Given that R8
+&tilde;15 Ato-positive R8 photoreceptors per row of cells. Given that R8
 cells appear every second row in our coordinate system, the number of
 R8s selected during one cycle is approximately 30, which is consistent
-with the literature[@Kumar:2012aa]
+with the literature [@Kumar:2012aa]
 and manual examination of our images. Consequently, the number of cells
-in the intermediate and equivalent groups should equal \~450 cells
-versus \~189 cells that we attributed to the MF-high class. Some cells
+in the intermediate and equivalent groups should equal &tilde;450 cells
+versus &tilde;189 cells that we attributed to the MF-high class. Some cells
 from intermediate and equivalent groups were therefore assigned to the
 MF-medium class due to lower Ato levels or lower Ato prominence,
 suggesting high variability of the Ato protein levels during the initial
@@ -389,8 +397,8 @@ specification.
 
 To identify which of the predicted Ato targets have expression profiles
 related to Ato, we looked at their expression levels in different cell
-classes and at their expression profiles along the A-P axis ([Figure 5a](#Fig_5),
-[Supplementary Figure 6](#Fig_S6)). We found that ten genes follow the levels of
+classes and at their expression profiles along the A-P axis ([@fig:Fig_5]a),
+[Supplementary [@fig:Fig_S6]). We found that ten genes follow the levels of
 Ato quite strongly, with the expression raising between MF-medium,
 MF-high and R8 classes. Expression of eight of these genes is the
 highest in the Ato-positive R8 cells, the remaining two genes (*Brd* and
@@ -408,7 +416,7 @@ genes were not expressed in the proximity of the furrow. In order to
 achieve better insight into the regulation of putative targets, we
 performed Ato ChIP-seq in the eye discs. We compared the upregulation of
 these genes in cells with high (MF-high, R8) and low (Pre-MF, MF-Low,
-Post-MF) Ato levels, to the Ato binding data from ChIP-seq ([Fig 5bcd](#Fig_5)).
+Post-MF) Ato levels, to the Ato binding data from ChIP-seq ([@fig:Fig_5]bcd).
 Ato binds strongly enhancers of two (*ato*, *nvy*) out of six most
 upregulated genes (*ato*, *CG9801*, *nvy*, *sca*, *CG2556*, *sens*),
 three are bound moderately (*sens*, *CG2556*, *sca*). Exceptionally
@@ -428,7 +436,7 @@ analysis), we propose that 13 out of 31 analyzed genes (*ato*, *Brd*,
 *CG13928*, *Lrch*, and *SRPK*) are immediate and direct targets of *Ato*
 in the eye disc. Our data on five genes (*CG31176*, *DAAM*, *dila*,
 *rau*, and *spdo*) contradicts previous
-predictions[@Aerts:2010aa]. The
+predictions [@Aerts:2010aa]. The
 expression of these genes in the MF area is close to our detection
 threshold, therefore we can neither confirm nor exclude these genes as
 Ato targets.
@@ -439,19 +447,19 @@ Discussion
 The methods to study developmental processes at a single cell level has
 long been a subject of intense technology development. Single-cell RNA
 sequencing in combination with clustering and data mining tools, such as
-SCENIC[@Aibar:2017aa] and
-SCope[@Davie:2018aa] enable
+SCENIC [@Aibar:2017aa] and
+SCope [@Davie:2018aa] enable
 identification of cell types and states that cells transition through
 during differentiation. scRNA-seq, while providing a quantitative
 whole-transcriptome view at the level of individual cells, yields data
 of limited dynamic range and low signal to noise
-ratio[@Hicks:2018aa]. Complex sample
+ratio [@Hicks:2018aa]. Complex sample
 preparation and the desire to maximize sequencing depth limit the number
 of analyzed cells in most developmental samples, from *Drosophila*, to
 several thousand (rarely exceeding 20k). As a consequence, the
 resolution of cell-type identification using scRNAseq is low. Mapping
 scRNA-seq data onto FISH
-datasets[@Karaiskos:2017aa; @Zhu:2018aa] introduces
+datasets [@Karaiskos:2017aa; @Zhu:2018aa] introduces
 spatial dimensions to the single-cell transcriptional analysis. However,
 due to limitations of the scRNAseq, it enables only a rough estimation
 of the tissue regions that the individual cells originate from.
@@ -482,10 +490,10 @@ Based on this relationship, we were able to identify 13 genes as likely
 direct Ato targets. Five of these genes (*ato*, *E(Spl)*, *Fas2*, *sca*,
 *sens*) were previously identified by others using both computational
 approaches and enhancer reporter
-assays[@Aerts:2010aa]. We provided
+assays [@Aerts:2010aa]. We provided
 supporting evidence for four genes (*CG2556*, *CG9801*, *nvy*, *SRPK*)
 that were previously only predicted
-computationally[@Aerts:2010aa] and
+computationally [@Aerts:2010aa] and
 identified three new targets (*Brd*, *seq*, *CG13928*). Interestingly,
 none of the direct Ato targets we identified here encode for structural
 or neurofunctional proteins, but rather for members of the Notch or EGFR
@@ -503,15 +511,16 @@ expression of Atonal. Depending on how differentiation progresses in a
 tissue of interest, different coordinate systems can be created, for
 example, a radial coordinate system could be suitable for the analysis
 in the inner proliferation center (IPC) of developing Drosophila
-brain[@Mora:2018aa]. With the
+brain [@Mora:2018aa]. With the
 advances in tissue culture and imaging techniques, such as the
 lightsheet
-microscopy[@Huisken:2004aa], our
+microscopy [@Huisken:2004aa], our
 approach could be implemented in living tissues. Deep learning-based
-analysis[@Weigert:2018aa] could further
+analysis [@Weigert:2018aa] could further
 improve the image segmentation and cell-type classification. This could
 help in better assess genes expressed at very low levels.
 
+<div id="refs"></div>
 
 Methods
 =======
@@ -519,14 +528,14 @@ Methods
 ## Putative target gene predictions and construct design
 
 The list of putative Ato target genes was generated using i-cisTarget
-webtool[@Herrmann:2012aa]
+webtool [@Herrmann:2012aa]
 \([https://med.kuleuven.be/lcb/i-cisTarget](https://med.kuleuven.be/lcb/i-cisTarget)\).
 We used the same lists of up-/downregulated genes in Ato gain or loss of
 function, as in the original cisTargetX (predecessor of i-cisTarget)
-publication[@Aerts:2010aa]. For each
+publication [@Aerts:2010aa]. For each
 putative target gene, a suitable fosmid or BAC has been found using the
 TransGeneOmics
-database[@Ejsmont:2009aa; @Sarov:2016aa]
+database [@Ejsmont:2009aa; @Sarov:2016aa]
 \([https://transgeneome.mpi-cbg.de](https://transgeneome.mpi-cbg.de)\).
 Recombineering primers were automatically designed using the same
 database. Fosmid clones were preferred over BACs. Clones with more
@@ -542,8 +551,8 @@ repository ([https://github.com/rejsmont/rdn-wdp-data](https://github.com/rejsmo
 
 Selected fosmids and BACs carrying putative Ato target genes were
 C-terminally tagged with the
-TagNG[@Ejsmont:2011aa]</sup>
-as described in the liquid culture recombineering protocol[@Ejsmont:2011ab]
+TagNG [@Ejsmont:2011aa]</sup>
+as described in the liquid culture recombineering protocol [@Ejsmont:2011ab]
 \(Protocol 8 in the thesis; full text is available online from TU Dresden library
 [https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-66452](https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-66452)\).
 In short, chloramphenicol (Cm)-resistant bacteria carrying the genomic
@@ -573,7 +582,7 @@ The recombinase-mediated cassette exchange construct used to generate
 the Ato[mCherry] allele (pattB-5\'ato-3\'ato-attB\_ato-mCherry) was based
 on pattB-5\'ato-3\'ato-attB\_ato-eGFP plasmid (NM / Hassan Lab). mCherry
 coding sequence was amplified from
-pTagNG\[@Ejsmont:2011aa]</sup>
+pTagNG\ [@Ejsmont:2011aa]</sup>
 using XhoI-mCherry-fwd (`TGC GCC TCG AGG GCG GAT CTG GCG GAT CTG GCG GAT
 CTA TGG TGA GCA AGG GCG AGG AGG`) and BsiWI-mCherry-rev (`GAA TTC ACG TAC
 GTT ACT TGT ACA GCT CGT CCA TG`) primers and cloned into *Xho*I and
@@ -582,7 +591,7 @@ GTT ACT TGT ACA GCT CGT CCA TG`) primers and cloned into *Xho*I and
 ## Fly stocks and husbandry
 
 The flies carrying the *Ato[mCherry]* allele were generated using the
-IMAGO technique[@Choi:2009aa]. The
+IMAGO technique [@Choi:2009aa]. The
 pattB-5\'ato-3\'ato-attB\_ato-mCherry construct was injected into the
 ato^$1^ knock-in flies (*vas-phiC31;; ato^$1^16-1/TM6c*, XQ / Hassan
 Lab). F0 males were crossed to (*w;; TM3 / TM6c*) virgins. Selected
@@ -590,8 +599,8 @@ recombinants (*w;; Ato[mCherry] / TM3*) were used to establish a
 homozygous stock used in the subsequent crosses. The 39 tagged fosmids
 and BACs carrying putative Ato target genes (TG) were used for
 PhiC37-mediated
-transgenesis[@Groth:2004aa] into the
-VK00037[@Venken:2006aa] landing site
+transgenesis [@Groth:2004aa] into the
+VK00037 [@Venken:2006aa] landing site
 flies (*y^$1^, M{vas-int.Dm}ZH-2A, w^$1^; PBac{y^$1^-attP-3B}VK00037*,
 Bloomington 24872). Transformants were selected for *3xP3-dsRed*
 (fosmids) or *w^$1^* (BACs) and balanced with *CyO*. Male flies (*w/Y;
@@ -612,7 +621,7 @@ After selecting the third instar larvae from the imaging cross, the
 samples were prepared for imaging. Due to the nature of the native
 fluorescent protein stability and intensity, it was crucial that samples
 be imaged the same day they were prepared. Larval brain complexes (from
-\~30 larvae) were dissected under a stereomicroscope. The larvae were
+&tilde;30 larvae) were dissected under a stereomicroscope. The larvae were
 dissected in a shallow glass dish with 0.1 M phosphate-buffered saline
 (PBS), using size 5 forceps and subsequently transferred to a 1.5 ml
 tube of 0.1 M PBS, kept on ice. The dissections were performed within 30
@@ -625,7 +634,7 @@ staining, the brain complexes were washed (5 and then 10 minutes) in
 PBS-T and then stored in PBS-T at 4ºC, for up to 3 hours. Using size 5
 forceps and acupuncture needles, the eye-antennal imaginal discs (Figure
 4) were dissected from the brain complexes and mounted on a charged
-slide (\~ 20 discs). The tissue was covered with a thin layer of
+slide (&tilde; 20 discs). The tissue was covered with a thin layer of
 mounting medium (2.5% DABCO in Mowiol® 4-88) and sealed under a \#1.5
 coverslip with Fixogum (Marabu).
 
@@ -660,11 +669,11 @@ classification using the random forest machine learning approach. Nuclei
 and background were manually marked using 2 labels (nucleus and
 background) in the DAPI channel for one z-stack image (randomly selected
 512 x 512 pixels window cropped from full-size image) from each imaging
-session using Ilastik[@Sommer:2011aa].
-Custom Fiji[@Schindelin:2012aa] plugins
+session using Ilastik [@Sommer:2011aa].
+Custom Fiji [@Schindelin:2012aa] plugins
 ([https://github.com/rejsmont/rdn-wdp](https://github.com/rejsmont/rdn-wdp))
-utilizing WEKA[@Arganda-Carreras:2017aa] and 3D
-ImageJ Suite[@Ollion:2013aa] were
+utilizing WEKA [@Arganda-Carreras:2017aa] and 3D
+ImageJ Suite [@Ollion:2013aa] were
 developed for training and application of the classifier. The classifier
 was trained based on several filters (Gaussian blur, derivatives,
 Difference of Gaussian, Laplacian of Gaussian, Max of Hessian
@@ -718,8 +727,8 @@ of Ato expression (P^$1^). Due to the number of cells in our samples
 (millions), simple linkage analysis is impossible due to huge memory
 requirements. On the other hand, we found that the clustering approaches
 designed to deal with large datasets (such as
-K-means[@MacQueen:1967aa] or
-DBscan[@Ester:1996aa] do not perform
+K-means [@MacQueen:1967aa] or
+DBscan [@Ester:1996aa] do not perform
 well on datasets with smooth transitions between the clusters. As
 changes of both Ato intensity and prominence are continuous is our data,
 these approaches failed to correctly identify different stages of R8
@@ -727,7 +736,7 @@ specification. Faced with these restrictions, we sought to divide a big
 problem of clustering millions of cells into multiple smaller ones. We
 randomly selected sets of 20 samples and performed the linkage analysis,
 using the Euclidean metric and the Ward variance minimization
-algorithm[@Ward:1963aa], on cells in
+algorithm [@Ward:1963aa], on cells in
 these samples. To recover clusters from linkage analysis we used the
 maximum number of clusters as a criterion. We optimized this parameter
 until the R8 cells were resolved in most samples, and found the optimal
@@ -769,7 +778,7 @@ High (see the `cleanup_clusters` method for details).
 800 eye-antennal discs were isolated from (*w; ato-GFP*) third-instar
 larvae. Chromatin was immunoprecipitated using anti-GFP (ab290, Abcam)
 antibody, purified and sequenced following previously published
-protocols[@Perez-Lluch:2011aa]. Raw data of
+protocols [@Perez-Lluch:2011aa]. Raw data of
 eye-disc samples was deposited in the Gene Expression Omnibus (GEO)
 database
 ([http://www.ncbi.nlm.nih.gov/projects/geo/](http://www.ncbi.nlm.nih.gov/projects/geo/))

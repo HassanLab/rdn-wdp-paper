@@ -1,0 +1,25 @@
+$if(title)$
+$title$
+===
+$endif$
+
+$for(author)$$if(author.name)$$if(author.link)$[$author.name$]($author.link$)$else$$author.name$$endif$<sup>$for(author.affiliations)$$author.affiliations$$sep$,$endfor$</sup>$else$$author$$endif$$sep$, $endfor$
+---
+
+$for(affiliations)$
+$affiliations$
+
+$endfor$
+---
+$if(doi)$
+[![DOI](https://zenodo.org/badge/$doi$.svg)](https://zenodo.org/badge/latestdoi/$doi$)
+$endif$
+
+$if(abstract)$
+Abstract
+========
+$abstract$
+$endif$
+
+
+$body$
