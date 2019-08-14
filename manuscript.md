@@ -71,7 +71,7 @@ genes due to varying affinities of in situ probes. Single-molecule
 fluorescent in situ hybridization (smFISH) addresses this issue by
 quantifying the number of objects (mRNA molecules), instead of the gross
 fluorescent signal per
-cell<sup>[6](Femino1998),[7](Ray2008)</sup>. While this
+cell<sup>[6](Femino1998),[7](Raj2008)</sup>. While this
 technique provides absolute quantification of gene expression, it cannot
 be applied to living cells and requires very high-resolution imaging.
 Therefore this technique limits the number of cells in which mRNAs can
@@ -500,249 +500,249 @@ help in better assess genes expressed at very low levels.
 References
 ==========
 
-1. Miyagi, M. & Rao, K. C. S. Proteolytic 18O-labeling strategies for
+1. <a id="#"></a>Miyagi, M. & Rao, K. C. S. Proteolytic 18O-labeling strategies for
 quantitative proteomics. *Mass Spectrom. Rev.* **26**, 121--136
 (2007).
 
-2. Wang, A. M., Doyle, M. V. & Mark, D. F. Quantitation of mRNA by the
+2. <a id="#"></a>Wang, A. M., Doyle, M. V. & Mark, D. F. Quantitation of mRNA by the
 polymerase chain reaction. *Proc. Natl. Acad. Sci. U. S. A.* **86**,
 9717--9721 (1989).
 
-3. Schena, M., Shalon, D., Davis, R. W. & Brown, P. O. Quantitative
+3. <a id="#"></a>Schena, M., Shalon, D., Davis, R. W. & Brown, P. O. Quantitative
 monitoring of gene expression patterns with a complementary DNA
 microarray. *Science* **270**, 467--470
 (1995).
 
-4. Nagalakshmi, U. *et al.* The transcriptional landscape of the yeast
+4. <a id="#"></a>Nagalakshmi, U. *et al.* The transcriptional landscape of the yeast
 genome defined by RNA sequencing. *Science* **320**, 1344--1349
 (2008).
 
-5. Luengo Hendriks, C. L. *et al.* Three-dimensional morphology and
+5. <a id="#"></a>Luengo Hendriks, C. L. *et al.* Three-dimensional morphology and
 gene expression in the Drosophila blastoderm at cellular resolution I:
 data acquisition pipeline. *Genome Biol.* **7**, R123
 (2006).
 
-6. Femino, A. M., Fay, F. S., Fogarty, K. & Singer, R. H. Visualization
+6. <a id="#"></a>Femino, A. M., Fay, F. S., Fogarty, K. & Singer, R. H. Visualization
 of single RNA transcripts in situ. *Science* **280**, 585--590
 (1998).
 
-7. Raj, A., van den Bogaard, P., Rifkin, S. A., van Oudenaarden, A. &
+7. <a id="#"></a>Raj, A., van den Bogaard, P., Rifkin, S. A., van Oudenaarden, A. &
 Tyagi, S. Imaging individual mRNA molecules using multiple singly
 labeled probes. *Nat. Methods* **5**, 877--879
 (2008).
 
-8. Brand, A. H. & Perrimon, N. Targeted gene expression as a means of
+8. <a id="#"></a>Brand, A. H. & Perrimon, N. Targeted gene expression as a means of
 altering cell fates and generating dominant phenotypes. *Dev. Camb.
 Engl.* **118**, 401--415
 (1993).
 
-9. Yeh, E., Gustafson, K. & Boulianne, G. L. Green fluorescent protein
+9. <a id="#"></a>Yeh, E., Gustafson, K. & Boulianne, G. L. Green fluorescent protein
 as a vital marker and reporter of gene expression in Drosophila. *Proc.
 Natl. Acad. Sci. U. S. A.* **92**, 7036--7040
 (1995).
 
-10. Johansson, H. E., Liljas, L. & Uhlenbeck, O. C. RNA Recognition by
+10. <a id="#"></a>Johansson, H. E., Liljas, L. & Uhlenbeck, O. C. RNA Recognition by
 the MS2 Phage Coat Protein. *Semin. Virol.* **8**, 176--185
 (1997).
 
-11. Bertrand, E. *et al.* Localization of ASH1 mRNA Particles in Living
+11. <a id="#"></a>Bertrand, E. *et al.* Localization of ASH1 mRNA Particles in Living
 Yeast. *Mol. Cell* **2**, 437--445
 (1998).
 
-12. Halder, G., Callaerts, P. & Gehring, W. J. Induction of ectopic
+12. <a id="#"></a>Halder, G., Callaerts, P. & Gehring, W. J. Induction of ectopic
 eyes by targeted expression of the eyeless gene in Drosophila. *Science* **267**, 1788--1792 (1995).
 
-13. Quiring, R., Walldorf, U., Kloter, U. & Gehring, W. J. Homology of
+13. <a id="#"></a>Quiring, R., Walldorf, U., Kloter, U. & Gehring, W. J. Homology of
 the eyeless gene of Drosophila to the Small eye gene in mice and
 Aniridia in humans. *Science* **265**, 785--789
 (1994).
 
-14. Dong, P. D. S., Dicks, J. S. & Panganiban, G. Distal-less and
+14. <a id="#"></a>Dong, P. D. S., Dicks, J. S. & Panganiban, G. Distal-less and
 homothorax regulate multiple targets to pattern the Drosophila antenna. *Dev. Camb. Engl.* **129**, 1967--1974
 (2002).
 
-15. Jarman, A. P., Grau, Y., Jan, L. Y. & Jan, Y. N. atonal is a
+15. <a id="#"></a>Jarman, A. P., Grau, Y., Jan, L. Y. & Jan, Y. N. atonal is a
 proneural gene that directs chordotonal organ formation in the
 Drosophila peripheral nervous system. *Cell* **73**, 1307--1321
 (1993).
 
-16. Jarman, A. P., Grell, E. H., Ackerman, L., Jan, L. Y. & Jan, Y. N.
+16. <a id="#"></a>Jarman, A. P., Grell, E. H., Ackerman, L., Jan, L. Y. & Jan, Y. N.
 Atonal is the proneural gene for Drosophila photoreceptors. *Nature* **369**, 398--400 (1994).
 
-17. Aerts, S. *et al.* Robust target gene discovery through
+17. <a id="#"></a>Aerts, S. *et al.* Robust target gene discovery through
 transcriptome perturbations and genome-wide enhancer predictions in
 Drosophila uncovers a regulatory basis for sensory specification. *PLoS
 Biol.* **8**, e1000435
 (2010).
 
-18. Pepple, K. L. *et al.* Two-step selection of a single R8
+18. <a id="#"></a>Pepple, K. L. *et al.* Two-step selection of a single R8
 photoreceptor: a bistable loop between senseless and rough locks in R8
 fate. *Dev. Camb. Engl.* **135**, 4071--4079
 (2008).
 
-19. Melicharek, D. *et al.* Identification of novel regulators of
+19. <a id="#"></a>Melicharek, D. *et al.* Identification of novel regulators of
 atonal expression in the developing Drosophila retina. *Genetics* **180**, 2095--2110 (2008).
 
-20. Pepple, K. L., Anderson, A. E., Frankfort, B. J. & Mardon, G. A
+20. <a id="#"></a>Pepple, K. L., Anderson, A. E., Frankfort, B. J. & Mardon, G. A
 genetic screen in Drosophila for genes interacting with senseless during
 neuronal development identifies the importin moleskin. *Genetics* **175**, 125--141 (2007).
 
-21. Celniker, S. E. *et al.* Unlocking the secrets of the genome. *Nature* **459**, 927--930
+21. <a id="#"></a>Celniker, S. E. *et al.* Unlocking the secrets of the genome. *Nature* **459**, 927--930
 (2009).
 
-22. Ejsmont, R. K., Sarov, M., Winkler, S., Lipinski, K. A. & Tomancak,
+22. <a id="#"></a>Ejsmont, R. K., Sarov, M., Winkler, S., Lipinski, K. A. & Tomancak,
 P. A toolkit for high-throughput, cross-species gene engineering in
 Drosophila. *Nat. Methods* **6**, 435--437
 (2009).
 
-23. Venken, K. J. T. *et al.* Versatile P\[acman\] BAC libraries for
+23. <a id="#"></a>Venken, K. J. T. *et al.* Versatile P\[acman\] BAC libraries for
 transgenesis studies in Drosophila  melanogaster. *Nat. Methods* **6**,
 431--434 (2009).
 
-24. Choi, C. M. *et al.* Conditional mutagenesis in Drosophila. *Science* **324**, 54
+24. <a id="#"></a>Choi, C. M. *et al.* Conditional mutagenesis in Drosophila. *Science* **324**, 54
 (2009).
 
-25. Maul, G. & Deaven, L. Quantitative determination of nuclear pore
+25. <a id="#"></a>Maul, G. & Deaven, L. Quantitative determination of nuclear pore
 complexes in cycling cells with differing DNA content. *J. Cell Biol.* **73**, 748--760 (1977).
 
-26. Puah, W. C., Chinta, R. & Wasser, M. Quantitative microscopy
+26. <a id="#"></a>Puah, W. C., Chinta, R. & Wasser, M. Quantitative microscopy
 uncovers ploidy changes during mitosis in live *Drosophila* embryos and
 their effect on nuclear size. *Biol. Open* **6**, 390--401
 (2017).
 
-27. Kumar, J. P. Building an Ommatidium One Cell at a Time. *Dev. Dyn.
+27. <a id="#"></a>Kumar, J. P. Building an Ommatidium One Cell at a Time. *Dev. Dyn.
 Off. Publ. Am. Assoc. Anat.* **241**, 136--149
 (2012).
 
-28. Sukhanova, M. J., Deb, D. K., Gordon, G. M., Matakatsu, M. T. & Du,
+28. <a id="#"></a>ukhanova, M. J., Deb, D. K., Gordon, G. M., Matakatsu, M. T. & Du,
 W. Proneural Basic Helix-Loop-Helix Proteins and Epidermal Growth Factor
 Receptor Signaling Coordinately Regulate Cell Type Specification and cdk
 Inhibitor Expression during Development. *Mol. Cell. Biol.* **27**,
 2987--2996 (2007).
 
-29. Quan, X.-J. *et al.* Post-translational Control of the Temporal
+29. <a id="#"></a>Quan, X.-J. *et al.* Post-translational Control of the Temporal
 Dynamics of Transcription Factor Activity Regulates Neurogenesis. *Cell***164**, 460--475 (2016).
 
-30. Chang, H. C. *et al.* phyllopod functions in the fate determination
+30. <a id="#"></a>Chang, H. C. *et al.* phyllopod functions in the fate determination
 of a subset of photoreceptors in Drosophila. *Cell* **80**, 463--472
 (1995).
 
-31. Dickson, B. J., Domínguez, M., van der Straten, A. & Hafen, E.
+31. <a id="#"></a>Dickson, B. J., Domínguez, M., van der Straten, A. & Hafen, E.
 Control of Drosophila photoreceptor cell fates by phyllopod, a novel
 nuclear protein acting downstream of the Raf kinase. *Cell* **80**,
 453--462 (1995).
 
-32. Jarman, A. P., Sun, Y., Jan, L. Y. & Jan, Y. N. Role of the
+32. <a id="#"></a>Jarman, A. P., Sun, Y., Jan, L. Y. & Jan, Y. N. Role of the
 proneural gene, atonal, in formation of Drosophila chordotonal organs
 and photoreceptors. *Development* **121**, 2019--2030
 (1995).
 
-33. Aibar, S. *et al.* SCENIC: Single-cell regulatory network inference
+33. <a id="#"></a>Aibar, S. *et al.* SCENIC: Single-cell regulatory network inference
 and clustering. *Nat. Methods* **14**, 1083--1086
 (2017).
 
-34. Davie, K. *et al.* A Single-Cell Transcriptome Atlas of the Aging
+34. <a id="#"></a>Davie, K. *et al.* A Single-Cell Transcriptome Atlas of the Aging
 Drosophila Brain. *Cell* **174**, 982-998.e20
 (2018).
 
-35. Hicks, S. C., Townes, F. W., Teng, M. & Irizarry, R. A. Missing
+35. <a id="#"></a>Hicks, S. C., Townes, F. W., Teng, M. & Irizarry, R. A. Missing
 data and technical variability in single-cell RNA-sequencing
 experiments. *Biostat. Oxf. Engl.* **19**, 562--578
 (2018).
 
-36. Karaiskos, N. *et al.* The Drosophila embryo at single-cell
+36. <a id="#"></a>Karaiskos, N. *et al.* The Drosophila embryo at single-cell
 transcriptome resolution. *Science* **358**, 194--199
 (2017).
 
-37. Zhu, Q., Shah, S., Dries, R., Cai, L. & Yuan, G.-C. Identification
+37. <a id="#"></a>Zhu, Q., Shah, S., Dries, R., Cai, L. & Yuan, G.-C. Identification
 of spatially associated subpopulations by combining scRNA-seq and
 sequential fluorescence in situ hybridization data. *Nat. Biotechnol.*
 (2018).
 doi:10.1038/nbt.4260
 
-38. Mora, N. *et al.* A Temporal Transcriptional Switch Governs Stem
+38. <a id="#"></a>Mora, N. *et al.* A Temporal Transcriptional Switch Governs Stem
 Cell Division, Neuronal Numbers, and Maintenance of Differentiation. *Dev. Cell* **45**, 53-66.e5
 (2018).
 
-39. Huisken, J., Swoger, J., Del Bene, F., Wittbrodt, J. & Stelzer, E.
+39. <a id="#"></a>Huisken, J., Swoger, J., Del Bene, F., Wittbrodt, J. & Stelzer, E.
 H. K. Optical sectioning deep inside live embryos by selective plane
 illumination microscopy. *Science* **305**, 1007--1009
 (2004).
 
-40. Chen, B.-C. *et al.* Lattice light-sheet microscopy: imaging
+40. <a id="#"></a>Chen, B.-C. *et al.* Lattice light-sheet microscopy: imaging
 molecules to embryos at high spatiotemporal resolution. *Science* **346**, 1257998 (2014).
 
-41. Vaadia, R. D. *et al.* Characterization of Proprioceptive System
+41. <a id="#"></a>Vaadia, R. D. *et al.* Characterization of Proprioceptive System
 Dynamics in Behaving Drosophila Larvae Using High-Speed Volumetric
 Microscopy. *Curr. Biol. CB* **29**, 935-944.e4
 (2019).
 
-42. Weigert, M. *et al.* Content-aware image restoration: pushing the
+42. <a id="#"></a>Weigert, M. *et al.* Content-aware image restoration: pushing the
 limits of fluorescence microscopy. *Nat. Methods* **15**, 1090--1097
 (2018).
 
-43. Herrmann, C., Van de Sande, B., Potier, D. & Aerts, S. i-cisTarget:
+43. <a id="#"></a>Herrmann, C., Van de Sande, B., Potier, D. & Aerts, S. i-cisTarget:
 an integrative genomics method for the prediction of regulatory features
 and cis-regulatory modules. *Nucleic Acids Res.* **40**, e114
 (2012).
 
-44. Sarov, M. *et al.* A genome-wide resource for the analysis of
+44. <a id="#"></a>Sarov, M. *et al.* A genome-wide resource for the analysis of
 protein localisation in Drosophila. *eLife* **5**, e12068
 (2016).
 
-45. Ejsmont, R. K. *et al.* Recombination-mediated genetic engineering
+45. <a id="#"></a>Ejsmont, R. K. *et al.* Recombination-mediated genetic engineering
 of large genomic DNA transgenes. *Methods Mol. Biol. Clifton NJ* **772**, 445--458 (2011).
 
-46. Ejsmont, R. A toolkit for visualization of patterns of gene
+46. <a id="#"></a>Ejsmont, R. A toolkit for visualization of patterns of gene
 expression in live Drosophila embryos. (TU Dresden,
 2011).
 
-47. Groth, A. C., Fish, M., Nusse, R. & Calos, M. P. Construction of
+47. <a id="#"></a>Groth, A. C., Fish, M., Nusse, R. & Calos, M. P. Construction of
 transgenic Drosophila by using the site-specific integrase from phage
 phiC31. *Genetics* **166**, 1775--1782
 (2004).
 
-48. Venken, K. J. T., He, Y., Hoskins, R. A. & Bellen, H. J.
+48. <a id="#"></a>Venken, K. J. T., He, Y., Hoskins, R. A. & Bellen, H. J.
 P\[acman\]: a BAC transgenic platform for targeted insertion of large
 DNA fragments in D. melanogaster. *Science* **314**, 1747--1751
 (2006).
 
-49. Sommer, C., Straehle, C., Köthe, U. & Hamprecht, F. A. Ilastik:
+49. <a id="#"></a>Sommer, C., Straehle, C., Köthe, U. & Hamprecht, F. A. Ilastik:
 Interactive learning and segmentation toolkit. in *2011 IEEE
 International Symposium on Biomedical Imaging: From Nano to Macro*
 230--233 (2011).
 doi:10.1109/ISBI.2011.5872394
 
-50. Schindelin, J. *et al.* Fiji: an open-source platform for
+50. <a id="#"></a>Schindelin, J. *et al.* Fiji: an open-source platform for
 biological-image analysis. *Nat. Methods* **9**, 676--682
 (2012).
 
-51. Arganda-Carreras, I. *et al.* Trainable Weka Segmentation: a
+51. <a id="#"></a>Arganda-Carreras, I. *et al.* Trainable Weka Segmentation: a
 machine learning tool for microscopy pixel classification. *Bioinforma.
 Oxf. Engl.* **33**, 2424--2426
 (2017).
 
-52. Ollion, J., Cochennec, J., Loll, F., Escudé, C. & Boudier, T.
+52. <a id="#"></a>Ollion, J., Cochennec, J., Loll, F., Escudé, C. & Boudier, T.
 TANGO: a generic tool for high-throughput 3D image analysis for studying
 nuclear organization. *Bioinformatics* **29**, 1840--1841
 (2013).
 
-53. MacQueen, J. Some methods for classification and analysis of
+53. <a id="#"></a>MacQueen, J. Some methods for classification and analysis of
 multivariate observations. in (The Regents of the University of
 California, 1967).
 
-54. Ester, M., Kriegel, H.-P., Sander, J. & Xu, X. A Density-based
+54. <a id="#"></a>Ester, M., Kriegel, H.-P., Sander, J. & Xu, X. A Density-based
 Algorithm for Discovering Clusters a Density-based Algorithm for
 Discovering Clusters in Large Spatial Databases with Noise. in *Proceedings
 of the Second International Conference on Knowledge
 Discovery and Data Mining* 226--231 (AAAI Press,
 1996).
 
-55. Ward, J. H. Hierarchical Grouping to Optimize an Objective
+55. <a id="#"></a>Ward, J. H. Hierarchical Grouping to Optimize an Objective
 Function. *J. Am. Stat. Assoc.* **58**, 236--244
 (1963).
 
-56. Pérez-Lluch, S. *et al.* Genome-wide chromatin occupancy analysis
+56. <a id="#"></a>Pérez-Lluch, S. *et al.* Genome-wide chromatin occupancy analysis
 reveals a role for ASH2 in transcriptional pausing. *Nucleic Acids Res.* **39**, 4628--4639 (2011).
 
 Methods
@@ -1257,7 +1257,7 @@ Post-MF).
 
 ---
 
-**Supplementary Table 1 - Genomic clones.**<a id="Tab_S1"></a>
+<a id="Tab_S1"></a>**Supplementary Table 1 - Genomic clones.**
 
 |   Gene     |    Clone     |   Gene    |    Clone     |
 |------------|--------------|-----------|--------------|
@@ -1304,7 +1304,7 @@ Post-MF).
 | beat-IIIc  | CH321-83H01  | CG8179    | CH322-77N14  |
 | king-tubby | CH321-23A21  | CG32206   | CH321-26N22  |
 
-**Supplementary Table 2 - Summary of Ato target gene expression.**<a id="Tab_S2"></a>
+<a id="Tab_S2"></a>**Supplementary Table 2 - Summary of Ato target gene expression.**
 
 |   Gene       | Expression group | Follows ato?        | Chip peak? | GO term (selection)                                     | Reference                       |
 |--------------|------------------|---------------------|------------|---------------------------------------------------------|---------------------------------|
@@ -1337,7 +1337,7 @@ Post-MF).
 | SRPK         | pre-post         | Weak                | No         | regulation of RNA splicing                              | Allemand et al., 2001           |
 
 
-**Supplementary Table 3 - A-P boundaries of the identified clusters.**<a id="Tab_S3"></a>
+<a id="Tab_S3"></a>**Supplementary Table 3 - A-P boundaries of the identified clusters.**
 
 |   Cluster   |   Start   |   End   |   Color   |
 |-------------|----------:|--------:|-----------|
