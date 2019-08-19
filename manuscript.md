@@ -404,7 +404,7 @@ We are grateful to Pavel Tomancak, Hugo Bellen and BACPAC Resources Center for t
 
 # Author contributions
 
-Conceived and designed the experiments: R.K.E., B.A.H. Bioinformatics: R.K.E. Cloning and fly husbandry: R.K.E., G.H., N.D., Sample preparation and imaging: R.K.E., G.H., S.F.T., A.W.C. ChIP-seq and analysis: N.M. Image analysis: R.K.E., G.H. Data analysis: R.K.E. Manuscript preparation: R.K.E., G.H., B.A.H.
+Conceived and designed the experiments: R.K.E., B.A.H. Bioinformatics: R.K.E. Cloning and fly husbandry: R.K.E., G.H., N.D., Sample preparation and imaging: R.K.E., G.H., S.F.T., A.W.C. ChIP-seq and analysis: N.M. Image analysis: R.K.E., G.H. Data analysis and software: R.K.E. Manuscript preparation: R.K.E., G.H., B.A.H.
 
 # Figures
 
@@ -565,7 +565,7 @@ Final analysis of the data, statistical analysis, and figure plotting was done i
 
 
 
-![Supplementary Figure 5](figures/fig_s5.png)
+![Supplementary Figure 5](figures/fig_s5s.png)
 
 <small>
 
@@ -577,7 +577,7 @@ Final analysis of the data, statistical analysis, and figure plotting was done i
 
 
 
-![Supplementary Figure 6](figures/fig_s6.png)
+![Supplementary Figure 6](figures/fig_s6s.png)
 
 <small>
 
