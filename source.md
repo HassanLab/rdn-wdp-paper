@@ -49,7 +49,6 @@ abstract: |
 doi: 147840131
 bibliography: bibliography.bib
 citation-style: https://raw.githubusercontent.com/citation-style-language/styles/master/nature.csl
-reference-section-title: References
 link-citations: true
 figPrefix: Fig.
 figLabels: [1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6]
@@ -520,6 +519,8 @@ analysis [@Weigert:2018aa] could further
 improve the image segmentation and cell-type classification. This could
 help in better assess genes expressed at very low levels.
 
+References
+==========
 <div id="refs"></div>
 
 Methods
