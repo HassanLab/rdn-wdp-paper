@@ -1,17 +1,20 @@
-# Single-cell resolution view of the transcriptional landscape of developing *Drosophila* eye.
-### [Radoslaw Kamil Ejsmont](https://github.com/rejsmont)<sup>1, 2, 3</sup>, [Grace Houser](https://github.com/Grace-Houser)<sup>1</sup>, Natalia Mora Garcia<sup>1, 2</sup>, Sara Fonseca Topp<sup>1</sup>, Natalia Danda<sup>1</sup>, Agnes Wong-Chung<sup>1</sup>, Bassem A. Hassan<sup>1, 2, ✉</sup>
+Single-cell resolution view of the transcriptional landscape of developing *Drosophila* eye.
+===
+
+[Radoslaw Kamil Ejsmont](https://github.com/rejsmont)<sup>1,2,3,✉</sup>, [Grace Houser](https://github.com/Grace-Hoxuser)<sup>1</sup>, Natalia Mora Garcia<sup>1,2</sup>, Sara Fonseca Topp<sup>1</sup>, Natalia Danda<sup>1</sup>, Agnes Wong-Chung<sup>1</sup>, Bassem A. Hassan<sup>1,2,✉</sup>
 ---
+
 <sup>1</sup> Institut du Cerveau et de la Moelle Epinière (ICM) - Hôpital Pitié-Salpêtrière, Sorbonne Université, Inserm, CNRS, Paris, France
 
 <sup>2</sup> VIB Center for the Biology of Disease, VIB, Leuven, Belgium
 
-<sup>3</sup> Current address: Center for Research and Interdisciplinarity (CRI), Paris, France, e-mail: [radoslaw.ejsmont@cri-research.org](mailto:radoslaw.ejsmont@cri-research.org)
+<sup>3</sup> Current address: Center for Research and Interdisciplinarity (CRI), Paris, France
 
-<sup>✉</sup> Corresponding author, e-mail: [bassem.hassan@icm-institute.org](mailto:bassem.hassan@icm-institute.org)
+<sup>✉</sup> Corresponding authors, e-mail: R.K.E <radoslaw.ejsmont@cri-paris.org>, B.A.H. <bassem.hassan@icm-institute.org>
 
 ---
-
 [![DOI](https://zenodo.org/badge/147840131.svg)](https://zenodo.org/badge/latestdoi/147840131)
+
 
 #### [Abstract](manuscript.md#Abstract)
 #### [Introduction](manuscript.md#Introduction)
