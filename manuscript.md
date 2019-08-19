@@ -582,50 +582,50 @@ Final analysis of the data, statistical analysis, and figure plotting was done i
 
 <div id="tbl:Tbl_S1">
 
-| Gene       | Clone        | Status           |  | Gene      | Clone        | Status           |
-| ---------- | ------------ | ---------------- |  | --------- | ------------ | ---------------- |
-| ato        | FlyFos018487 | analyzed         |  | lola      | CH321-64B21  | damaged          |
-| CG30492    | FlyFos025473 | no transformants |  | Vn        | CH321-32C03  | damaged          |
-| phyl       | FlyFos020917 | bad pattern      |  | CG31176   | CH321-68N01  | analyzed         |
-| Lrch       | FlyFos030461 | analyzed         |  | Mob1      | CH321-54G09  | no transformants |
-| rau        | FlyFos018143 | analyzed         |  | Rapgap1   | CH321-89N04  | tagged           |
-| E(spl)     | FlyFos015754 | no transformants |  | CG32030   | CH321-70B20  | tagged           |
-| neur       | FlyFos031675 | no transformants |  | Dscam     | CH321-22M14  | tagged           |
-| Abl        | FlyFos015106 | analyzed         |  | hts       | CH321-77H01  | tagged           |
-| CG15097    | FlyFos027941 | analyzed         |  | MYPT-75D  | CH321-24P07  | tagged           |
-| CG32150    | FlyFos018293 | analyzed         |  | Pde8      | CH321-96P21  | tagged           |
-| dap        | FlyFos031180 | bad pattern      |  | spir      | CH321-96L14  | tagged           |
-| HLHmdelta  | FlyFos026304 | analyzed         |  | Teh1      | CH321-36O12  | tagged           |
-| nvy        | FlyFos015283 | analyzed         |  | Traf1     | CH321-47A07  | tagged           |
-| CG2556     | FlyFos023117 | analyzed         |  | CG9924    | CH321-34F15  | tagged           |
-| sca        | FlyFos024078 | analyzed         |  | mam       | CH321-79C18  | tagged           |
-| sens       | FlyFos015942 | analyzed         |  | Mmp2      | CH321-81G18  | tagged           |
-| dpr9       | FlyFos024562 | analyzed         |  | a         | CH321-22E15  | tagged           |
-| CG17724    | FlyFos015482 | analyzed         |  | amon      | CH321-81N06  | tagged           |
-| Brd        | FlyFos016733 | analyzed         |  | CG32131   | CH321-64F13  | tagged           |
-| DmsR-1     | FlyFos021260 | no transformants |  | CG9095    | CH321-50L11  | tagged           |
-| betaTub60D | FlyFos029115 | analyzed         |  | dpr10     | CH321-87P03  | tagged           |
-| CG13928    | FlyFos020310 | analyzed         |  | Lim3      | CH321-39L06  | tagged           |
-| CG15863    | FlyFos017066 | no transformants |  | sano      | CH321-05O14  | tagged           |
-| CG30343    | FlyFos020323 | analyzed         |  | CG31871   | CH322-172D02 | tagged           |
-| CG9801     | FlyFos020740 | analyzed         |  | Ank2      | CH321-62K18  | tagged           |
-| DAAM       | FlyFos021723 | analyzed         |  | cenG1A    | CH321-26H08  | tagged           |
-| nSyb       | FlyFos031054 | analyzed         |  | Pka-R2    | CH321-17H01  | tagged           |
-| nerfin-1   | FlyFos030783 | no transformants |  | beat-IIIa | CH321-25K15  | tagged           |
-| salm       | FlyFos030836 | no transformants |  | CG31637   | CH321-17L11  | tagged           |
-| scrt       | FlyFos028185 | analyzed         |  | CG32387   | CH321-91A23  | tagged           |
-| seq        | FlyFos015482 | analyzed         |  | CG32677   | CH321-24B04  | tagged           |
-| spdo       | FlyFos026385 | analyzed         |  | CG33515   | CH321-75A21  | tagged           |
-| SRPK       | FlyFos028931 | analyzed         |  | cup       | CH322-177F17 | tagged           |
-| Victoria   | FlyFos031257 | bad morphology   |  | dpr       | CH321-23G21  | tagged           |
-| dila       | FlyFos029937 | analyzed         |  | f         | CH321-77G18  | tagged           |
-| CG17378    | FlyFos026679 | analyzed         |  | side      | CH321-68D05  | tagged           |
-| Fas2       | CH321-93H14  | analyzed         |  | Spn       | CH321-22C11  | tagged           |
-| sNPF       | CH321-09B13  | damaged          |  | Src64B    | CH321-96A17  | tagged           |
-| nmo        | CH321-25B06  | damaged          |  | CG6024    | CH321-24G17  | tagged           |
-| siz        | CH321-77O01  | damaged          |  | CG6495    | CH322-147E22 | tagged           |
-| beat-IIIc  | CH321-83H01  | damaged          |  | CG8179    | CH322-77N14  | tagged           |
-| ktub       | CH321-23A21  | analyzed         |  | CG32206   | CH321-26N22  | tagged           |
+| Gene       | Clone        | Status           | Gene      | Clone        | Status           |
+| ---------- | ------------ | ---------------- | --------- | ------------ | ---------------- |
+| ato        | FlyFos018487 | analyzed         | lola      | CH321-64B21  | damaged          |
+| CG30492    | FlyFos025473 | no transformants | Vn        | CH321-32C03  | damaged          |
+| phyl       | FlyFos020917 | bad pattern      | CG31176   | CH321-68N01  | analyzed         |
+| Lrch       | FlyFos030461 | analyzed         | Mob1      | CH321-54G09  | no transformants |
+| rau        | FlyFos018143 | analyzed         | Rapgap1   | CH321-89N04  | tagged           |
+| E(spl)     | FlyFos015754 | no transformants | CG32030   | CH321-70B20  | tagged           |
+| neur       | FlyFos031675 | no transformants | Dscam     | CH321-22M14  | tagged           |
+| Abl        | FlyFos015106 | analyzed         | hts       | CH321-77H01  | tagged           |
+| CG15097    | FlyFos027941 | analyzed         | MYPT-75D  | CH321-24P07  | tagged           |
+| CG32150    | FlyFos018293 | analyzed         | Pde8      | CH321-96P21  | tagged           |
+| dap        | FlyFos031180 | bad pattern      | spir      | CH321-96L14  | tagged           |
+| HLHmdelta  | FlyFos026304 | analyzed         | Teh1      | CH321-36O12  | tagged           |
+| nvy        | FlyFos015283 | analyzed         | Traf1     | CH321-47A07  | tagged           |
+| CG2556     | FlyFos023117 | analyzed         | CG9924    | CH321-34F15  | tagged           |
+| sca        | FlyFos024078 | analyzed         | mam       | CH321-79C18  | tagged           |
+| sens       | FlyFos015942 | analyzed         | Mmp2      | CH321-81G18  | tagged           |
+| dpr9       | FlyFos024562 | analyzed         | a         | CH321-22E15  | tagged           |
+| CG17724    | FlyFos015482 | analyzed         | amon      | CH321-81N06  | tagged           |
+| Brd        | FlyFos016733 | analyzed         | CG32131   | CH321-64F13  | tagged           |
+| DmsR-1     | FlyFos021260 | no transformants | CG9095    | CH321-50L11  | tagged           |
+| betaTub60D | FlyFos029115 | analyzed         | dpr10     | CH321-87P03  | tagged           |
+| CG13928    | FlyFos020310 | analyzed         | Lim3      | CH321-39L06  | tagged           |
+| CG15863    | FlyFos017066 | no transformants | sano      | CH321-05O14  | tagged           |
+| CG30343    | FlyFos020323 | analyzed         | CG31871   | CH322-172D02 | tagged           |
+| CG9801     | FlyFos020740 | analyzed         | Ank2      | CH321-62K18  | tagged           |
+| DAAM       | FlyFos021723 | analyzed         | cenG1A    | CH321-26H08  | tagged           |
+| nSyb       | FlyFos031054 | analyzed         | Pka-R2    | CH321-17H01  | tagged           |
+| nerfin-1   | FlyFos030783 | no transformants | beat-IIIa | CH321-25K15  | tagged           |
+| salm       | FlyFos030836 | no transformants | CG31637   | CH321-17L11  | tagged           |
+| scrt       | FlyFos028185 | analyzed         | CG32387   | CH321-91A23  | tagged           |
+| seq        | FlyFos015482 | analyzed         | CG32677   | CH321-24B04  | tagged           |
+| spdo       | FlyFos026385 | analyzed         | CG33515   | CH321-75A21  | tagged           |
+| SRPK       | FlyFos028931 | analyzed         | cup       | CH322-177F17 | tagged           |
+| Victoria   | FlyFos031257 | bad morphology   | dpr       | CH321-23G21  | tagged           |
+| dila       | FlyFos029937 | analyzed         | f         | CH321-77G18  | tagged           |
+| CG17378    | FlyFos026679 | analyzed         | side      | CH321-68D05  | tagged           |
+| Fas2       | CH321-93H14  | analyzed         | Spn       | CH321-22C11  | tagged           |
+| sNPF       | CH321-09B13  | damaged          | Src64B    | CH321-96A17  | tagged           |
+| nmo        | CH321-25B06  | damaged          | CG6024    | CH321-24G17  | tagged           |
+| siz        | CH321-77O01  | damaged          | CG6495    | CH322-147E22 | tagged           |
+| beat-IIIc  | CH321-83H01  | damaged          | CG8179    | CH322-77N14  | tagged           |
+| ktub       | CH321-23A21  | analyzed         | CG32206   | CH321-26N22  | tagged           |
 
 **Supplementary Table 1 - Genes and clones.** This table list all predicted targets of Ato, the genomic clones used to create the transcriptional reporters, and the status of their analysis. Clone names are listed according to the FlyFos and p\[ACMAN\] library naming scheme. Genes that were fully analyzed in this study are labelled “analyzed”. Genes rejected due to bad disc morphology are labelled “bad morphology”. Genes for which the expression pattern was different than published elsewhere are labelled “bad pattern”. Genes that failed to produce transformant flies are labelled “no transformants”. Genes that were not selected for transgenesis at the time of publication are labelled “tagged”.
 
@@ -675,7 +675,7 @@ Final analysis of the data, statistical analysis, and figure plotting was done i
 | MF-low  |   \-1 |   3 | cyan   |
 | MF-med  |   \-3 |   2 | red    |
 | MF-high |   \-1 |   2 | blue   |
-| R8      |     2 |   6 | purple |
+| R8      |     2 |   6 | violet |
 | Post-MF |     2 |     | green  |
 
 **Supplementary Table 3 - A-P boundaries of the identified clusters.** This table lists the identified cell classes as well as the A-P regions that they occupy. The distances are expressed in the normalized distance units (1 unit is the mean nuclear diameter in a sample) from the morphogenetic furrow. Negative values are anterior to the furrow. The last column shows the color code used to label the cell type in the figures.
