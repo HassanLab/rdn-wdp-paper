@@ -25,6 +25,14 @@
 
 ---
 
+The manuscript is written in [pandoc markdown](https://pandoc.org/MANUAL.html#pandocs-markdown). It can be rendered into [GitHub Flavored Markdown](https://github.github.com/gfm/) with the following command:
+
+```
+pandoc -F pandoc-crossref -F pandoc-citeproc source.md -t gfm --template templates/default.gfm --wrap=none | sed 's/\!\[\*\*\(.*Figure .\) - \(.*\)\](\(.*\.png\))/§![\1](\3)§§<small>§§**\1 - \2§§<\/small>§§---§/' | tr '§' '\n' > manuscript.md
+```
+
+---
+
 This is a repository for [HassanLab](https://github.com/HassanLab/) publication from RDN-WDP Project. Image processing software used in this research can be found in [RDN-WDP](https://github.com/rejsmont/rdn-wdp) repository. Data mining and postprocessing scripts can be found in [RDN-WDP-Python](https://github.com/rejsmont/rdn-wdp-python) repository. Raw data will be posted (as soon as we properly annotate and organize it) in [RDN-WDP-Data](https://github.com/rejsmont/rdn-wdp-data) repository.
 
 We decided to write this paper on GitHub with belief that open science also means transparency in how scientific stories are put together and published.  If you found this project interesting and would like to contribute, or if you found an error or a bug in the text, data or associated software, drop me a line at [radoslaw.ejsmont@icm-institute.org](mailto:radoslaw.ejsmont@icm-institute.org) or create a pull request.
