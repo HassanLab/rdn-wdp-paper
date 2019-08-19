@@ -444,35 +444,45 @@ Final analysis of the data, statistical analysis, and figure plotting was done i
 ![Figure 1](figures/fig_1.png)
 
 <small>
+
 **Figure 1 - Experimental pipeline.** Our experimental pipeline starts with the computational prediction of putative Ato targets. Each target is then tagged with a nuclear fluorescent reporter. Tagged genomic constructs are injected into fly embryos. Tagged target genes are combined with the fluorescently labeled Ato allele in a series of genetic crosses. Eye discs from third instar larvae are dissected and imaged. Nuclei from each image are segmented. Discs are aligned along the morphogenetic furrow, nuclear coordinates and signal intensities are normalized. Nuclei are clustered based on their A-P position and the expression of Ato revealing different stages of R8 photoreceptor differentiation.
+
 </small>
 
 
 ![Figure 2](figures/fig_2.png)
 
 <small>
+
 **Figure 2 - The quality of nuclear segmentation in the eye disc images.** (**a**) Raw microscopic images were segmented into (**b**) nuclear point clouds. Both images show a single section (slice 40) of sample K21OU5. Nuclear DAPI staining is green, Ato\[mCherry\] fusion protein is red, *Lrch* (CG6860) transcriptional reporter is blue. The confocal image was acquired on the Olympus FV1200 point scanning confocal with a 40x/1.3 oil immersion objective. Scale bars are 30 µm. Anterior of the disc is at the top. (**c**) Segmented nuclei were projected (xyz mean-intensity projection) onto a 2-dimensional grid with normalized nucleus diameter (per sample) as a unit. Morphogenetic furrow (dotted line) was detected as a line of maximum Ato expression in the anterior part of the disc. The vertical axis is the A-P distance from the anterior edge of the image. The horizontal axis is the D-V distance from the disc edge. (**d**) The vertical (y) coordinates of nuclei were transformed so that the MF forms a straight line at y=0. The y-axis is the A-P distance from the MF. The horizontal axis is the D-V distance from the disc edge. (**e**) Distribution of nuclear volumes across all imaged samples. The solid line indicates the mean value. Dashed lines indicate 50% deviations from the mean. (**f**) Distribution of mean nuclear volumes per sample. The solid line indicates the mean value. (**g**) Distribution of total cell count per sample. The solid line indicates the mean value. (**h**) Distribution of the mean Ato\[mCherry\] signal intensities along the MF per sample. The solid line indicates the mean value.
+
 </small>
 
 
 ![Figure 3](figures/fig_3.png)
 
 <small>
+
 **Figure 3 - Expression of Atonal protein and mRNA in the eye disc.** (**a**) xyz mean intensity projection of normalized Ato\[mCherry\] protein fusion expression from 55 p\[ACMAN\] BAC samples. The vertical axis is the A-P distance from the MF. The horizontal axis is the D-V distance from the disc edge. Axis unit is the normalized nuclear diameter. (**b**) xyz maximum projection of Ato\[mCherry\] prominence in the same samples. (**c**) xyz mean intensity projection of normalized ato-T2A-Venus-NLS transcriptional reporter expression. (**d**) xyz maximum projection of the transcriptional reporter prominence in the same samples. (**e**) Anterior-posterior (A-P) gene expression profile of Ato protein (green) and the *ato* transcriptional reporter (blue). Protein samples the same as in (a, b), transcriptional reporter samples the same as in (c, d). (**f**) Dorsal-ventral (D-V) gene expression profile of Ato protein and the *ato* transcriptional reporter.
+
 </small>
 
 
 ![Figure 4](figures/fig_4.png)
 
 <small>
+
 **Figure 4 - Cell type classification in the eye disc.** (**a**) color-coded result of cell-type classification based on Ato\[mCherry\] expression in the eye disc (violet - R8, blue - MF-High, red - MF-Medium, cyan - MF-Low, orange - Pre-MF, green - Post-MF). Single disc, sample O4UW6B. The vertical axis is the A-P distance from the MF. The horizontal axis is the D-V distance from the disc edge. Axis unit is the normalized nuclear diameter. (**b**) Ato\[mCherry\] expression in the same sample. (**c**) Ato\[mCherry\] expression (vertical axis) and prominence (inner color) in different cell classes (outer color) along the A-P axis. These three variables were used for cell-type classification. Colored squares represent the cluster centroids in the sample O4UW6B. Colored diamonds represent global cluster centroids calculated from all samples. (**d**) Cluster centroids from every analyzed sample. (**e**) The fraction of cells that belong to each cluster, distribution across all analyzed samples.
+
 </small>
 
 
 ![Figure 5](figures/fig_5.png)
 
 <small>
+
 **Figure 5 - Expression of the putative Ato targets in different cell types.** (**a**) Distribution of the putative target gene expression levels in different cell types in the vicinity of the morphogenetic furrow (violin plot) and the A-P expression profiles in each cell type (line plot). Color code is the same as in figure 4 (violet - R8, blue - MF-High, red - MF-Medium, cyan - MF-Low, orange - Pre-MF, green - Post-MF). (**b**) Expression fold change between Ato-high (MF-High and R8 classes) and Ato-low cells (MF-Low, Pre-MF, and Post-MF) plotted against Ato ChIP-seq peak area. The outlier (*nvy*) is plotted in orange, the remaining genes represented in both datasets are plotted in blue. (**c**) ChIP peak area for genes included in this study. One that was not expressed in the MF vicinity in our imaging but has significant ChIP peak (*dpr9*) is plotted in red. (**d**) Expression fold change between Ato-high and Ato-low cells. Genes without ChIP peaks were plotted in green. Error bars represent propagated standard error of the mean (SEM).
+
 </small>
 
 # Supplementary material
@@ -481,42 +491,54 @@ Final analysis of the data, statistical analysis, and figure plotting was done i
 ![Supplementary Figure 1](figures/fig_s1.png)
 
 <small>
+
 **Supplementary Figure 1 - Genetically-encoded fluorescent reporters.** (a) The transcriptional reporter is designed to be placed C-terminally, just before the target gene STOP codon. The reporter consists of a tandem TY1 epitope, a T2A ribosomal skip sequence, nuclear Venus fluorescent protein, the FRT site that also encodes a degron, and a triple FLAG epitope. (b) The ato\[mCherry\] knock-in construct contains an FRT3 sequence that can be used for mitotic recombination, the *ato* promoter, and the full-length *ato* transcript sequence. The insert is flanked by attB sites used for knock-in using the IMAGO technique.
+
 </small>
 
 
 ![Supplementary Figure 2](figures/fig_s2.png)
 
 <small>
+
 **Supplementary Figure 2 - Nuclear segmentation.** (**a**) A single section of the DAPI channel used for segmentation (sample 1Q8GA8). Scale bar is 30 µm. (**b**) Pixel classification probability map used to detect the nuclei. (**c**) Seed detection using the difference of Gaussians (DoG) calculated from the probability maps. (**d**) Result of 3D watershed calculated on the probability map using DoG seeds.
+
 </small>
 
 
 ![Supplementary Figure 3](figures/fig_s3.png)
 
 <small>
+
 **Supplementary Figure 3 - Sample-invariant coordinate system used for sample registration.** Each nucleus is represented by eight values. The horizontal (**x**) axis represents the D-V distance of the nucleus from the disc edge. The vertical (**y**) axis represents the A-P distance from the morphogenetic furrow. Both values are expressed in units of mean nuclear diameter in the disc. The nucleus volume (**V**) is expressed in voxels (1 voxel = 3.375×10<sup>$1</sup> µm<sup>$1</sup>). Signal intensities for DAPI (**D**), Ato\[mCherry\] (**A**) and the T2A-Venus transcriptional reporters (**T**) are normalized to the mean intensity of Ato\[mCherry\] along the MF. The prominence of Ato\[mCherry\] (**P<sup>$1</sup>**) and the reporter (**P<sup>$1</sup>**) is calculated as a mean ratio between the signal intensity in the particular nucleus and its 26 nearest neighbors in 3D space and takes values between 0 (lowest prominence) and infinity (highest prominence). The value of 1 means that the signal intensity in the nucleus is identical to the mean intensity of its 26 neighbors.
+
 </small>
 
 
 ![Supplementary Figure 4](figures/fig_s4.png)
 
 <small>
+
 **Supplementary Figure 4 - Expression of Atonal in the eye disc. Sample artifacts and the robustness of our approach.** (**a**) Maximum intensity z-projection of Ato\[mCherry\] channel from sample iJbqq8. In addition to Ato\[mCherry\], the expression 3xP3-dsRed selectable marker is also visible in the posterior part of the disc as well as in the optic nerve. (**b**) Maximum intensity z-projection of ato-T2A-Venus-NLS transcriptional reporter channel from the same sample. (**c**) A single section of the Ato\[mCherry\] channel. (**d**) A single section of the transcriptional reporter channel. (**e**) A single section composite of all channels (DAPI - green, Ato\[mCherry\] - red, T2A-Venus - blue). (**f**) Nuclear point cloud from the same section. (**g**) xyz mean intensity projection of normalized Ato\[mCherry\] signal from all samples. (**h**) xyz maximum projection of Ato\[mCherry\] prominence in all samples. (**i**) xyz maximum intensity projection of Ato\[mCherry\] signal from all samples. (**j**) comparison of the A-P profiles of Ato\[mCherry\] expression measured in BAC (solid line) and all (dotted line) samples.
+
 </small>
 
 
 ![Supplementary Figure 5](figures/fig_s5.png)
 
 <small>
+
 **Supplementary Figure 5 - Expression of the putative Ato targets in the eye disc.** The left plots show the xyz mean intensity projection of the normalized reporter expression. The middle plots show the xyz maximum projection of the reporter prominence. The right plots show the A-P expression profile of the reporter (blue line) and the Ato protein (green line) as a reference.
+
 </small>
 
 
 ![Supplementary Figure 6](figures/fig_s6.png)
 
 <small>
+
 **Supplementary Figure 6 - Expression of the putative Ato targets in different cell types.** Violin plots show the distribution of the putative target gene expression levels in different cell types in the vicinity of the morphogenetic furrow. Statistical significance of the expression differences in MF-Medium / MF-High, MF-High / R8, and R8 / Post-MF pairs was computed using a two-sample z-test with Bonferroni correction. Line plots show the A-P expression profiles in each cell type. Color code is the same as in figure 4 (violet - R8, blue - MF-High, red - MF-Medium, cyan - MF-Low, orange - Pre-MF, green - Post-MF).
+
 </small>
 
 <div id="tbl:Tbl_S1">
