@@ -21,8 +21,8 @@ Single-cell resolution view of the transcriptional landscape of developing *Dros
 #### [Results](manuscript.md#Results)
 #### [Discussion](manuscript.md#Discussion)
 #### [References](manuscript.md#References)
-#### [Acknowledgements](manuscript.md)
-#### [Author contributions](manuscript.md)
+#### [Acknowledgements](manuscript.md#Acknowledgements)
+#### [Author contributions](manuscript.md#Author-contributions)
 #### [Methods](manuscript.md#Methods)
 #### [Supplementary material](manuscript.md#Supplementary-material)
 
