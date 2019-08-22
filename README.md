@@ -34,6 +34,18 @@ The manuscript is written in [pandoc markdown](https://pandoc.org/MANUAL.html#pa
 pandoc -F pandoc-crossref -F pandoc-citeproc source.md -t gfm --template templates/default.gfm --wrap=none | sed 's/\!\[\*\*\(.*Figure .\) - \(.*\)\](\(.*\.png\))/§![\1](\3)§§<small>§§**\1 - \2§§<\/small>§§---§/' | tr '§' '\n' > manuscript.md
 ```
 
+and into a PDF with the following command:
+
+```
+cat source.md | sed 's/s*\.png/.pdf/' | pandoc -F pandoc-crossref -F pandoc-citeproc --template templates/default.latex --wrap=none -o manuscript.pdf --pdf-engine=xelatex --from markdown+latex_macro -f markdown
+```
+
+Version for reviewing (with numbered lines and larger line spacing) can be generated using the following command:
+
+```
+cat source.md | sed 's/s*\.png/.pdf/' | pandoc -F pandoc-crossref -F pandoc-citeproc --template templates/review.latex --wrap=none -o manuscript-review.pdf --pdf-engine=xelatex --from markdown+latex_macro -f markdown
+```
+
 ---
 
 This is a repository for [HassanLab](https://github.com/HassanLab/) publication from RDN-WDP Project. Image processing software used in this research can be found in [RDN-WDP](https://github.com/rejsmont/rdn-wdp) repository. Data mining and postprocessing scripts can be found in [RDN-WDP-Python](https://github.com/rejsmont/rdn-wdp-python) repository. Raw data is posted in [RDN-WDP-Data](https://github.com/rejsmont/rdn-wdp-data) repository.
