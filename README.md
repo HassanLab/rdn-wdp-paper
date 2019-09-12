@@ -15,6 +15,7 @@ Single-cell resolution view of the transcriptional landscape of developing *Dros
 ---
 [![DOI](https://zenodo.org/badge/147840131.svg)](https://zenodo.org/badge/latestdoi/147840131)
 
+> Now available as bioRxiv preprint: [https://www.biorxiv.org/content/10.1101/763243v2](https://www.biorxiv.org/content/10.1101/763243v2)
 
 #### [Abstract](manuscript.md#Abstract)
 #### [Introduction](manuscript.md#Introduction)
