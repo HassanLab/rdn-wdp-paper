@@ -8,7 +8,7 @@ Single-cell resolution view of the transcriptional landscape of developing *Dros
 
 <sup>2</sup> VIB Center for the Biology of Disease, VIB, Leuven, Belgium
 
-<sup>3</sup> Current address: Center for Research and Interdisciplinarity (CRI), Paris, France
+<sup>3</sup> Center for Research and Interdisciplinarity (CRI), Paris, France
 
 <sup>✉</sup> Corresponding authors, e-mail: R.K.E <radoslaw.ejsmont@cri-paris.org>, B.A.H. <bassem.hassan@icm-institute.org>
 
